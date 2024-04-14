@@ -1,0 +1,668 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KFZLZVX6');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+/* Define scrollbar width and color */
+::-webkit-scrollbar {
+    width: 4px; /* Adjust as needed */
+    height:   0.7rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #080F1A; /* Dark background color */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #666; /* Darker color for scrollbar handle */
+    border-radius: 10px; /* Add curved edges */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #707070; /* Lighter color on hover */
+  }
+body{
+    font-size: 14px;
+}
+.fade-in {
+    animation: fadeInAnimation 2s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #080F1A;
+    color: #fff;
+}
+
+header #particles{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+header .info-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    height: 100vh;
+}
+
+header .info-text h1{
+    font-size: 5rem;
+    font-weight: 500;
+    font-family: 'Ubuntu';
+}
+
+header .info-text h3{
+    font-size: 1.5rem;
+}
+header .info-text h4{
+    
+    color: rgb(156, 156, 156);
+}
+header .info-text .scroll{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    color: #fff;
+    transform: translate(0, -50%);
+    transition: all 0.5s;
+}
+
+header .info-text .scroll:hover{
+    opacity: 0.7;
+}
+
+header .info-text .scroll::before{
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    z-index: -1;
+    content: '';
+    width: 44px;
+    height: 44px;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    animation: pulse 2s infinite;
+}
+/*---------------------header button--------------------------*/
+header .info-text .button{
+    position: absolute;
+    top : 55%;
+    
+}
+
+
+/*-------------------------------------------------------------*/
+@keyframes pulse {
+    0%, 100%{
+        opacity: 0;
+    }
+    15%, 45%{
+        opacity: 1;
+    }
+    60%{
+        box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.1);
+        opacity: 0;
+    }
+}
+
+ #features{
+    background-color: #04080E;
+    padding: 40px;
+    height: fit-content;
+}
+
+#about .header, #features .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+
+#about .header h1, #features .header h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#about .header a, #features .header a{
+    background-color: #080F1A;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 10px 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+#about .header a:hover, #features .header a:hover{
+    border-color: #fff;
+    box-shadow: none;
+}
+
+#about .card, #features .card{
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    display: flex;
+    gap: 30px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+.card{
+    background-color: #080F1A;
+    
+}
+#about .card:hover, #features .card:hover{
+    border-color: #fff;
+    box-shadow: none;
+}
+
+#about .card img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#about .card .info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#about .card .info h1, #features .card .info h1{
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+}
+
+#about .card .info p, #features .card .info p{
+    color: #ccc;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+#features .feature-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#features .feature-cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    min-width: 300px;
+}
+
+#features .feature-cards .card .info i{
+    color: #fff;
+    font-size: 8rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+
+#features .feature-cards .card .info h1{
+    text-align: center;
+}
+
+#features .feature-cards .card .info p{
+    font-size: 1.1rem;
+}
+
+
+.scroll-top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2b2f4b;
+    color: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    padding: 16px 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.scroll-top:hover{
+    border-color: #fff;
+    box-shadow: none;
+}
+
+
+
+.btn {
+    
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.3s ease;
+  width: 9rem;
+}
+.para{
+    width: 15rem;
+
+}
+
+.btn:hover,
+:focus {
+  color: #ffffff;
+  background: #003a69;
+  border: 1px solid #003a69;
+  text-shadow: 0 0 0px #ffffff, 0 0 0px #ffffff, 0 0 0px #ffffff;
+  box-shadow: 0 0 2px #003a69, 0 0 2px #003a69, 0 0 2px #003a69,
+    0 0 2px #003a69;
+}
+
+
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    z-index: 1000; /* Ensure the navbar appears on top of other content */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-right: 0;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+    color: #ccc;
+}
+
+
+.paragraph{
+    display: flex;
+
+}
+@media screen and (max-width: 720px) {
+    header .info-text .button{
+    position: absolute;
+    top : 58%;
+    
+}
+    #seeMore{
+        display: none;
+    }
+    #robo{
+        width: 9%;
+    }
+    header .info-text h1{
+        font-size: 4rem;
+    }
+
+    header .info-text h3{
+        font-size: 1.1rem;
+    }
+
+    #about .card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about .card img{
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+}
+
+
+
+.prodName{
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:35%
+}
+
+    </style>
+    <title>AbyuDAY</title>
+    <link rel="icon" type="image/svg" href="./robotics.svg">
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFZLZVX6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar">
+        <div class="container">
+            <img src="./robotics.svg" alt="" id="robo" width="2%">
+            <ul class="navbar-menu">
+                
+                <li>BETA</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <div class="prodName">
+                <h1 class="fade-in">AbyuDAY</h1><br>
+            <h4>A Multi LLM Platform</h4>
+            </div>
+            
+            <a href="/" class="button"><button type="button" class="btn" >Try Now</button></a>
+            <a href="#features" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
+
+    
+
+    <section id="features">
+        <div class="header">
+            <h1>LLM Models</h1>
+            <a href="#" id="seeMore">See More</a>
+        </div>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="info">
+                    <img src="./mistral.png" alt="" style="width: 100%;">
+                    <h1>Mixtral 8x7B Instruct</h1>
+                    <p class="paragraph">
+                        Mixtral8x7B is a powerful open-source language model excelling in tasks like code generation and translation.  It offers high performance at a fraction of the cost compared to similar models.
+                    </p>
+                    
+                </div>
+            <a href="/"><button type="button" class="btn para" onClick="setCookie('Model=Mixtral8x7BInstruct')">Chat</button></a>  
+                
+            </div>
+            <div class="card">
+                <div class="info">
+                    <img src="./mistral.png" alt="" style="width: 100%;">
+
+                    <h1>Mistral 7B Instruct</h1>
+                    <p class="paragraph">
+                        Mistral 7B Instruct is a large language model fine-tuned for conversation and question answering, built for easy adaptation to new tasks.
+                    </p>
+                    
+                </div>
+                <a href="/"><button type="button" class="btn para" onClick="setCookie('Model=Mistral7BInstruct')">Chat</button></a>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <img src="./meta.png" alt="" style="width: 100%;">
+
+                    <h1>Llama2 70B</h1>
+                    <p class="paragraph">
+                        Llama2 70B is a large language model with 70 billion parameters, trained for conversation and integrated with the Hugging Face Transformers library.
+                    </p>
+                    
+                </div>
+                <a href="/"><button type="button" class="btn para" onClick="setCookie('Model=Llama270B')">Chat</button></a>
+            </div>
+            
+            <div class="card">
+                <div class="info">
+                    <img src="./meta.png" alt="" style="width: 100%;">
+
+                    <h1>Code Llama 70B</h1>
+                    <p class="paragraph">
+                        Code Llama 70B, a Meta LLM, tackles code creation and comprehension. Open-source, it offers general and Python-focused versions, nearing the power of GPT-3.5.
+                    </p>
+                    
+                </div>
+                <a href="/"><button type="button" class="btn para" onClick="setCookie('Model=CodeLlama70B')">Chat</button></a>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <img src="./meta.png" alt="" style="width: 100%;">
+
+                    <h1>Code Llama 34B</h1>
+                    <p class="paragraph">
+                        Code Llama 34B is a large language model, specializing in understanding and generating code. With 34 billion parameters, it's a powerhouse for programmers.
+                    </p>
+                    
+                </div>
+                <a href="/"><button type="button" class="btn para" onClick="setCookie('Model=CodeLlama34B')">Chat</button></a>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <img src="./meta.png" alt="" style="width: 100%;">
+
+                    <h1>Code Llama 13B</h1>
+                    <p class="paragraph">
+                      Code Llama 13B is a large language model (LLM) that generates and understands computer code. At 13 billion parameters, it's a powerful tool for programmers.
+                    </p>
+                    
+                </div>
+                <a href="/"><button type="button" class="btn para" onClick="setCookie('Model=CodeLlama13B')">Chat</button></a>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <img src="./meta.png" alt="" style="width: 100%;">
+
+                    <h1>NV-Llama2-70B-RLHF</h1>
+                    <p class="paragraph">
+                        NV-Llama2-70B-RLHF is a large language model by Nvidia with 70 billion parameters, trained to follow instructions and respond to prompts.
+                    </p>
+                    
+                </div>
+                <a href="/"><button type="button" class="btn para" onClick="setCookie('Model=NVLlama270BRLHF')">Chat</button></a>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <img src="./meta.png" alt="" style="width: 100%;">
+                    <h1>NV-Llama2-70B-SteerLM-Chat</h1>
+                    <p class="paragraph">
+                        NV-Llama2-70B-SteerLM-Chat is a large language model by NVIDIA with 70 billion parameters, allowing adjustable chat conversation style.
+                    </p>
+                    
+                </div>
+                <a href="/"><button type="button" class="btn para" onClick="setCookie('Model=NVLlama270BSteerLMChat')">Chat</button></a>
+            </div>
+        </div>
+    </section>
+
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow'></i>
+    </button>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        
+        particlesJS("particles", {
+    particles: {
+        number: {
+            value: 100,
+            density: {
+                enable: true,
+                value_area: 800
+            }
+        },
+        color: {
+            value: "#ffffff"
+        },
+        shape: {
+            type: "circle",
+            stroke: {
+                width: 0,
+                color: "#000000"
+            }
+        },
+        opacity: {
+            value: 0.8,
+            random: true,
+            animation: {
+                enable: true,
+                speed: 1,
+                opacity_min: 0,
+                sync: false
+                     }
+        },
+        size: {
+            value: 3,
+            random: true
+              },
+        line_linked: {
+            enable: true,
+            distance: 150,
+            color: "#ffffff",
+            opacity: 0.4,
+            width: 1
+        },
+        move: {
+            enable: true,
+            speed: 2,
+            direction: "none",
+            random: true,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+        }
+    },
+    interactivity: {
+        detectsOn: "canvas",
+        events: {
+            onHover: {
+                enable: true,
+                mode: "push"
+            },
+            onClick: {
+                enable: true,
+                mode: "push"
+            },
+            resize: true
+        },
+        modes: {
+            repulse: {
+                distance: 100,
+                duration: 0.4
+            },
+            push: {
+                particles_nb: 4
+            }
+        }
+    },
+    retina_detect: true
+});
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+    });
+}
+
+window.addEventListener('scroll', function () {
+    var scrollTopButton = document.querySelector('.scroll-top');
+    if (this.window.pageYOffset > 200) {
+        scrollTopButton.style.display = 'block';
+    } else {
+        scrollTopButton.style.display = 'none';
+    }
+});
+
+
+
+function setCookie(model){
+    document.cookie= model;
+}
+// window.onload = ()=>{
+//     console.log(document.cookie);
+// }
+    </script>
+</body>
+
+</html>
