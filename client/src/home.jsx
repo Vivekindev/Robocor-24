@@ -220,7 +220,7 @@ function App() {
 
             <div className="eventCard">
               <img class="eventImage"src="https://content.instructables.com/FQ4/JS4F/JIKJZG1J/FQ4JS4FJIKJZG1J.jpg?auto=webp&frame=1&width=840&height=1024&fit=bounds&md=3ed8980f9bb925d6ce5c348a02f3708e" style={{borderRadius:"1rem"}}></img> 
-              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' >Arduino Trap</span>   </div>
+              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' >Arduino Craft</span>   </div>
               <div className="eventDetails">
               Welcome to our Arduino event! This is a fantastic opportunity for electronics enthusiasts to demonstrate your skills and knowledge by performing simple tasks using Arduino. Participants will have to go through a written test. The selected teams have to complete a task based on Arduino. The team conceding minimum time will be the winner.
               </div>
@@ -248,7 +248,8 @@ function App() {
               <img class="eventImage"src="https://robocor-23.cyclic.app/imgs/spardha.jpg" style={{borderRadius:"1rem"}}></img> 
               <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > quizzy Brainiacs </span>   </div>
               <div className="eventDetails">
-              Are you ready to show your skills? A Platform to build, develop and showcase your ideas. The staple diet of all technical events is undoubtedly the presentation event, yet it has something in it which makes it exciting . Sweat your mind and work to innovate the future.take out your imagination into the real world and experience the unique satisfaction of ur dream come true.
+
+              Join us for our robotics quiz event! Get ready to challenge your knowledge and problem-solving abilities in the exciting field of robotics. It's an opportunity to push your boundaries and showcase your skills. Let's dive in and explore the world of robots together!
               </div>
               <div className="eventMisc">
               <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
