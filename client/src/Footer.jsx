@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="footer-layout">
                 <div className="footer-1-row">
                     <div className="footer-info-wrap">
-                    <span style={{ fontSize: "2rem" ,fontFamily:"jedi",fontSize:"4rem"}} className='gradient-text'> C0RS1T</span>
+                    <span style={{ fontSize: "2rem" ,fontFamily:"jedi",fontSize:"4rem"}} className='gradient-text'> corsit</span>
               
                         <p className="paragraph-gradient">
                         Corsit is the Robotics Club of Siddaganga Institute of Technology. Established in 2006,works under the patronage of eYantra cell of IIT Bombay.

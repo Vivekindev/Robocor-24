@@ -272,6 +272,9 @@ body {
         padding-left: 0vw;
 		justify-content: center;
 	}
+	.eventImage{
+		min-height: 25rem;
+	}
 	.eventDetails{
 		min-height: 0px;
 	}

@@ -7,6 +7,15 @@ import Menu from './menu.jsx';
 import Map from './map.jsx'
 import Btn from './btn.jsx'
 import BtnDesktop from './btnDesktop.jsx'
+
+import byteWars from './assets/compressed/bytewars.jpg'
+import droidKick from './assets/compressed/droidkick.jpg'
+import droidRace from './assets/compressed/droidrace.jpg'
+import projectSymposium from './assets/compressed/projectSymposium.jpg'
+import quiz from './assets/compressed/quiz.jpg'
+import starCrawl from './assets/compressed/starcrawl.jpg'
+import starLink from './assets/compressed/starlink.jpg'
+
 function App() {
     const [scrolling, setScrolling] = useState(false);
 
@@ -154,7 +163,7 @@ function App() {
             <div className="cardContainer">
 
             <div className="eventCard">
-              <img class="eventImage"src="https://robocor-23.cyclic.app/imgs/dcode.jpg" style={{borderRadius:"1rem"}}></img> 
+              <img class="eventImage"src={byteWars} style={{borderRadius:"1rem"}}></img> 
               <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > ByteWars</span>   </div>
               <div className="eventDetails">
               Coding is an integral part of Robotics. Our coding event is designed to be both challenging and fun During this event, you will have the chance to compete with other talented programmers and solve challenging coding problems. The winners will be determined based on accuracy, efficiency, and speed.
@@ -167,7 +176,7 @@ function App() {
             </div>
 
             <div className="eventCard">
-              <img class="eventImage"src="https://robocor-23.cyclic.app/imgs/lfr.jpg" style={{borderRadius:"1rem"}}></img> 
+              <img class="eventImage"src={droidRace} style={{borderRadius:"1rem"}}></img> 
               <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > DroidRace </span>   </div>
               <div className="eventDetails">
               Fumble and it’s all over!! Trace it and track the prize!!! This event is for the code masters. Here’s your chance to prove your robot’s worth. A series of simple yet complex path are to be traced by the autonomous robot. Build the right circuit and test the precision of your programming. And as the saying goes, You don’t fall out of track and you shall emerge victorious.
@@ -180,7 +189,7 @@ function App() {
             </div>
 
             <div className="eventCard">
-              <img class="eventImage"src="https://robocor-23.cyclic.app/imgs/bluetooth.jpg" style={{borderRadius:"1rem"}}></img> 
+              <img class="eventImage"src={starLink} style={{borderRadius:"1rem"}}></img> 
               <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > StarLink  </span>   </div>
               <div className="eventDetails">
               Gear up for rumbling engines, flamboyant wireless cars and adrenaline packed races at the all new Cross Roads. It's all about speed, control and accuracy, the bot that covers the track in the minimum time collecting the maximum points will be the champion. Now put effort into competition and conquer the field.
@@ -193,7 +202,7 @@ function App() {
             </div>
 
             <div className="eventCard">
-              <img class="eventImage"src="https://robocor-23.cyclic.app/imgs/ruggedrace.jpg" style={{borderRadius:"1rem"}}></img> 
+              <img class="eventImage"src={starCrawl} style={{borderRadius:"1rem"}}></img> 
               <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > StarCrawl </span>   </div>
               <div className="eventDetails">
               Each participant has to design and build a manually controlled wired/wireless bot. During this event your robots will face various obstacles, such as navigating through rough terrain, climbing over obstacles, and crossing water barriers. The course is designed to test your robot's strength, speed, and adaptability as they go through challenging terrain.
@@ -206,7 +215,7 @@ function App() {
             </div>
 
             <div className="eventCard">
-              <img class="eventImage"src="https://i.ytimg.com/vi/Jz382I8ew8g/maxresdefault.jpg" style={{borderRadius:"1rem"}}></img> 
+              <img class="eventImage"src={droidKick} style={{borderRadius:"1rem"}}></img> 
               <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > DroidKick  </span>   </div>
               <div className="eventDetails">
               The objective is to design a manual robot which can compete compete against each other in a soccer arena. It will be a one vs one soccer match in which the aim will be to push the ball in the opponent's goal post. Our Robo Soccer event is designed to be both challenging and entertaining, providing you with the opportunity to win some fantastic prizes.
@@ -232,7 +241,7 @@ function App() {
             </div>
 
             <div className="eventCard">
-              <img class="eventImage"src="https://robocor-23.cyclic.app/imgs/projectsymposium.jpg" style={{borderRadius:"1rem"}}></img> 
+              <img class="eventImage"src={projectSymposium} style={{borderRadius:"1rem"}}></img> 
               <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > Project symposium </span>   </div>
               <div className="eventDetails">
               Are you ready to show your skills? A Platform to build, develop and showcase your ideas. The staple diet of all technical events is undoubtedly the presentation event, yet it has something in it which makes it exciting . Sweat your mind and work to innovate the future.take out your imagination into the real world and experience the unique satisfaction of ur dream come true.
@@ -245,7 +254,7 @@ function App() {
             </div>
             
             <div className="eventCard">
-              <img class="eventImage"src="https://robocor-23.cyclic.app/imgs/spardha.jpg" style={{borderRadius:"1rem"}}></img> 
+              <img class="eventImage"src={quiz} style={{borderRadius:"1rem"}}></img> 
               <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > quizzy Brainiacs </span>   </div>
               <div className="eventDetails">
 
