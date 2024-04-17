@@ -100,7 +100,7 @@ function App() {
 
 
 
-    if (!loaded) {
+    if (1) {
         // Show loading screen until loaded
         return(
             <>
