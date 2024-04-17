@@ -100,8 +100,22 @@ function App() {
         // Show loading screen until loaded
         return(
             <>
-            <div className="loading">
-               <span className='gradient-text'> corsit</span>
+            <div style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "100vh",
+                fontFamily: "jedi",
+                fontSize: "7rem",
+                backgroundColor: "#110302"
+            }}>
+               <span style={{
+                 background: "linear-gradient(to right, #D4AE7E, #856550)", /* Define your gradient colors */
+                 webkitBackgroundClip: "text", /* Clip text to the background shape (the gradient) */
+                 webkitTextFillColor: "transparent" /* Set text color to transparent */
+               
+               }}> corsit</span>
             </div>
             </>
         );
