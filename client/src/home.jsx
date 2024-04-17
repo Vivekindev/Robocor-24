@@ -90,7 +90,11 @@ function App() {
     };
 
 
-
+    useEffect(() => {
+        window.onload = () => {
+            setLoaded(true);
+        };
+    }, []);
 
 
 
