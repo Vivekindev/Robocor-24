@@ -68,6 +68,17 @@ object-fit: cover;
 
 /*-----------------------------eventCard--------------------------------- */
 
+.loading{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "jedi";
+	font-size: 7rem;
+	background-color: #110302;
+}
+
 .tagMain{
 	font-family:"jedi";
 	font-size:"8rem"
@@ -188,8 +199,7 @@ min-height: 20rem;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 100vw;
-	padding: 5vw;
+	
 	padding-bottom: 0px;
 	padding-top: 1rem;
 	justify-content: center;
@@ -257,6 +267,9 @@ body {
 @media only screen and (max-width: 767px){
 	.tagMain{
 		font-size: 4.9rem;
+	}
+	.sponsors{
+		padding-bottom: 3rem;
 	}
 	.sponsorsImage{
 		min-height: 0px;

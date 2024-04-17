@@ -51,9 +51,60 @@ function App() {
         setIsMenuOpen(!isMenuOpen);
     };
 
+
+
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 0) {
+                setScrolling(true);
+            } else {
+                setScrolling(false);
+            }
+        };
+  
+        window.addEventListener('scroll', handleScroll);
+  
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+  
+
+  
+    useEffect(() => {
+      // Simulating loading time
+      setTimeout(() => {
+        setLoaded(true);
+      }, 1); // Adjust the time as needed
+    }, []);
+  
+    const scrollToElement = (id) => {
+      const miscDiv = document.getElementById(id);
+      if (miscDiv) {
+        window.scrollTo({
+          top: miscDiv.offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    };
+
+
+
+
+
+
+
+
     if (!loaded) {
         // Show loading screen until loaded
-        return <div><h1>Loading...</h1></div>;
+        return(
+            <>
+            <div className="loading">
+               <span className='gradient-text'> corsit</span>
+            </div>
+            </>
+        );
     }
 
     return (
