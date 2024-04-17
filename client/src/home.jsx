@@ -72,13 +72,7 @@ function App() {
   
 
   
-    useEffect(() => {
-      // Simulating loading time
-      setTimeout(() => {
-        setLoaded(true);
-      }, 1); // Adjust the time as needed
-    }, []);
-  
+
     const scrollToElement = (id) => {
       const miscDiv = document.getElementById(id);
       if (miscDiv) {
@@ -100,7 +94,7 @@ function App() {
 
 
 
-    if (1) {
+    if (!loaded) {
         // Show loading screen until loaded
         return(
             <>
