@@ -2,7 +2,7 @@
 const btnDesktop = (props)=>{
 
 return(<><br></br><br></br>
-    <a href="/register">  <button className="c-cta u-justify-content-center u-align-items-center u-cursor-pointer" data-v-8f71f97c="" to="">
+     <button className="c-cta u-justify-content-center u-align-items-center u-cursor-pointer" data-v-8f71f97c="" to="">
     <span className="c-cta__name" data-v-8f71f97c="" data-text={props.data}>
         <span data-v-8f71f97c="">{props.data}</span>
     </span>
@@ -24,7 +24,7 @@ return(<><br></br><br></br>
         </svg>
     </span>
 </button>
-</a> 
+ 
 </>
 );
 
