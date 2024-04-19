@@ -1,4 +1,4 @@
-
+import Footer from './Footer.jsx';
 import './home.css';
 import Btn from './btn.jsx'
 import BtnDesktop from './btnDesktop.jsx'
@@ -8,10 +8,10 @@ const Register = ()=>{
 const [clicked,setClicked] = useState(false);
 return(
 <>
-{(!clicked)?(
+{(!clicked)?(<>
 <div className="registerContainer">
-<span style={{  fontFamily:"jedi",fontSize:"4rem"}} className='gradient-text' > register</span>
-<div className="eventCard">
+<span style={{  fontFamily:"jedi",fontSize:"4rem",marginBottom:"3rem"}} className='gradient-text' > register</span>
+<div className="eventCard eventCardExp">
              <img class="eventImage"src={byteWars} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > ByteWars</span>   </div>
             
@@ -25,7 +25,8 @@ return(
             <div onClick={()=>setClicked(true)}> {(window.innerWidth>700) ? (<BtnDesktop data="Proceed to Checkout"/>) : (<Btn data="Proceed to Checkout"/>)}</div>
            </div>
  </div>
-
+ <div id="footer"className="foot"><Footer/></div>
+ </>
 ):(
            <div style={{
 width:"100%",

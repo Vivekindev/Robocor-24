@@ -206,9 +206,10 @@ function App() {
 </span>
 
        </div>
-       
-
-                           
+      <div className="tagDate">
+        {(window.innerWidth>700) ? (<BtnDesktop data="9th MAY 2024"/>) : (<Btn data="9th MAY 2024"/>)}
+      </div>
+ 
    </div>
    
 </div>
