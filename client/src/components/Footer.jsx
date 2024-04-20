@@ -1,6 +1,6 @@
 import './Footer.css';
 
-import whatsapp from './assets/whatsapp.png';
+import whatsapp from '../assets/whatsapp.png';
 const Footer = () => {
     return (
         <div className="page-padding">
@@ -88,16 +88,7 @@ const Footer = () => {
                         <a href="/about" className="footer-nav-link w-inline-block">
                             <div>about</div>
                         </a>
-                        <a href="/blog" className="footer-nav-link w-inline-block">
-                            <div>blog</div>
-                        </a>
-                        <a href="/careers" className="footer-nav-link w-inline-block">
-                            <div>careers</div>
-                        </a>
-                       
-                        <a href="/partners" className="footer-nav-link w-inline-block">
-                            <div>partners</div>
-                        </a>
+                        
                         <a href="/subscribe" target="_blank" className="footer-nav-link w-inline-block">
                             <div>subscribe</div>
                         </a>
@@ -112,17 +103,7 @@ const Footer = () => {
 
                 <div className="footer-2-row">
                     <div className="small-p copyright">© 2024 Corsit. All rights reserved.</div>
-                    <div className="legal-links-wrapper">
-                        <a href="#" className="legal-link-wrap w-inline-block">
-                            <div className="small-p">Privacy Policy</div>
-                        </a>
-                        <a href="#" className="legal-link-wrap w-inline-block">
-                            <div className="small-p">Terms of Use</div>
-                        </a>
-                        <a href="#" className="legal-link-wrap w-inline-block">
-                            <div className="small-p">Cookie Policy</div>
-                        </a>
-                    </div>
+                    
                 </div>
             </div>
         </div>

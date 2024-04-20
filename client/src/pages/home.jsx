@@ -3,21 +3,21 @@
 
 import React, { useState, useEffect } from 'react';
 import './home.css';
-import robocorLogo from './assets/robocorLogo.png';
-import line from './assets/underline.png';
-import Footer from './Footer.jsx';
-import Menu from './menu.jsx';
-import Map from './map.jsx'
-import Btn from './btn.jsx'
-import BtnDesktop from './btnDesktop.jsx'
+import robocorLogo from '../assets/robocorLogo.png';
+import line from '../assets/underline.png';
+import Footer from '../components/Footer.jsx';
+import Menu from '../components/menu.jsx';
+import Map from '../components/map.jsx'
+import Btn from '../components/btn.jsx'
+import BtnDesktop from '../components/btnDesktop.jsx'
 
-import byteWars from './assets/compressed/bytewars.jpg'
-import droidKick from './assets/compressed/droidkick.jpg'
-import droidRace from './assets/compressed/droidrace.jpg'
-import projectSymposium from './assets/compressed/projectSymposium.jpg'
-import quiz from './assets/compressed/quiz.jpg'
-import starCrawl from './assets/compressed/starcrawl.jpg'
-import starLink from './assets/compressed/starlink.jpg'
+import byteWars from '../assets/compressed/bytewars.jpg'
+import droidKick from '../assets/compressed/droidkick.jpg'
+import droidRace from '../assets/compressed/droidrace.jpg'
+import projectSymposium from '../assets/compressed/projectSymposium.jpg'
+import quiz from '../assets/compressed/quiz.jpg'
+import starCrawl from '../assets/compressed/starcrawl.jpg'
+import starLink from '../assets/compressed/starlink.jpg'
 
 function App() {
     const [scrolling, setScrolling] = useState(false);
@@ -233,7 +233,7 @@ function App() {
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Teamsize</span> : 2
              </div>
-            <a href="/register"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
+            <a href="/register/1"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
            </div>
 
            <div className="eventCard">
@@ -246,7 +246,7 @@ function App() {
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Teamsize</span> : 4
              </div>
-            <a href="/register"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
+            <a href="/register/2"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
            </div>
 
            <div className="eventCard">
@@ -259,7 +259,7 @@ function App() {
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Teamsize</span> : 4
              </div>
-            <a href="/register"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
+            <a href="/register/3"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
            </div>
 
            <div className="eventCard">
@@ -272,7 +272,7 @@ function App() {
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Teamsize</span> : 4
              </div>
-            <a href="/register"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
+            <a href="/register/4"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
            </div>
 
            <div className="eventCard">
@@ -285,7 +285,7 @@ function App() {
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Teamsize</span> : 4
              </div>
-            <a href="/register"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
+            <a href="/register/5"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
            </div>
 
            <div className="eventCard">
@@ -298,7 +298,7 @@ function App() {
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Teamsize</span> : 3
              </div>
-            <a href="/register"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
+            <a href="/register/6"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
            </div>
 
            <div className="eventCard">
@@ -311,7 +311,7 @@ function App() {
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Teamsize</span> : 4
              </div>
-            <a href="/register"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
+            <a href="/register/7"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
            </div>
            
            <div className="eventCard">
@@ -325,7 +325,7 @@ function App() {
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Teamsize</span> : 4
              </div>
-            <a href="/register"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
+            <a href="/register/8"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
            </div>
 
            </div>
