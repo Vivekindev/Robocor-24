@@ -1,6 +1,3 @@
-
-
-
 import React, { useState, useEffect } from 'react';
 import './home.css';
 import robocorLogo from '../assets/robocorLogo.png';
@@ -18,6 +15,7 @@ import projectSymposium from '../assets/compressed/projectSymposium.jpg'
 import quiz from '../assets/compressed/quiz.jpg'
 import starCrawl from '../assets/compressed/starcrawl.jpg'
 import starLink from '../assets/compressed/starlink.jpg'
+import handleDownload from '../functions/handleDownload.jsx';
 
 function App() {
     const [scrolling, setScrolling] = useState(false);
@@ -150,7 +148,7 @@ function App() {
                                    </a>
                                </li>
                                <li className="l-nav__item" data-v-6ddf8e5c="">
-                                   <a href="/home" className="t-text-gradient t-link  t-link--gradient " data-text="About" data-v-6ddf8e5c="">
+                                   <a onClick={()=>handleDownload('rulebook.pdf')} className="t-text-gradient t-link  t-link--gradient " data-text="About" data-v-6ddf8e5c="">
                                        <span className="u-inline-block t-text-gradient " data-v-6ddf8e5c="" >Rule Book</span>
                                    </a>
                                </li>
