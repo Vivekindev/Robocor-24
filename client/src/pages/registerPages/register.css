@@ -1,0 +1,212 @@
+ul {
+    list-style-type: disc; /* Defines the type of bullet point */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+  }
+  
+  /* Optional: style for list items */
+  ul li {
+    margin-bottom: 5px; /* Adds space between list items */
+  }
+.eventRules{
+    padding: 1.5rem;
+    font-size: 1.3rem;
+}  
+/*-----------------------------eventCard--------------------------------- */
+#left{
+width: 50%;
+height: 100%;
+}
+#right{
+width: 50%;
+height: 100%;
+display: flex;
+flex-direction: column;
+padding: 5rem;
+padding-top: 3rem;
+justify-content: space-between;
+}
+
+.registerContainer_event{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	padding-top: 2rem;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.cardContainer_event{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2vw;
+   
+    }
+    .eventCard_event{
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        height: fit-content;
+        background-color: #110302;
+        border-radius: 1rem;
+        
+        border: #D0AB7C solid 1px;
+        align-items: center;
+        
+        min-height: 83vh;
+    }
+    
+    .eventImage_event{
+        border: #D0AB7C solid 1px;
+     width:100%;
+     height: 100%;
+    
+     border-radius: 1rem;
+    
+    object-fit: cover;
+    }
+    .eventName_event{
+        
+        margin-bottom: 1rem;
+        width:90%;
+        height: fit-content;
+        border-radius: 1rem;
+     
+        
+    }
+    .eventDetails_event{
+        font-size: 1.5rem;
+        margin-top: 1rem;	
+        width:90%;
+        height: fit-content;
+        border-radius: 1rem;
+        min-height: 13rem;
+        
+    }
+    .eventMisc_event{
+       	
+        width:90%;
+        height: 5%;
+        border-radius: 1rem;
+     
+        
+    }
+    .eventReg_event{
+        margin-top: 1rem;	
+        width:90%;
+        height: 10%;
+        border-radius: 1rem;
+        border: #D0AB7C solid 1px;
+    }
+    
+    /*-----------------------------eventCard--------------------------------- */
+
+
+
+
+
+
+
+
+/*--------------------------------------Mobile------------------------------ */
+
+.registerContainer_Int{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	padding-top: 1.1rem;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.cardContainer_Int{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding-left: 2vw;
+}
+.eventCard_Int{
+	display: flex;
+	flex-direction: column;
+	width: 40vw;
+	height: 86vh;
+	background-color: #110302;
+	border-radius: 1rem;
+	margin-top: 2.2rem;
+	border: #D0AB7C solid 1px;
+	align-items: center;
+	padding-bottom: 2rem;
+	margin-left: 2vw;
+	min-height: 60rem;
+}
+.eventCardExp_Int{
+	min-height: 0px;
+}
+.eventImage_Int{
+	border: #D0AB7C solid 1px;
+ width:100%;
+ height: 30%;
+ max-height: 15rem;
+ border-radius: 1rem;
+
+object-fit: cover;
+}
+.eventName_Int{
+	margin-top: 1.2rem;	
+	margin-bottom: 0rem;
+	width:90%;
+	height: fit-content;
+	border-radius: 1rem;
+ 
+	
+}
+.eventDetails_Int{
+	font-size: 1.5rem;
+	margin-top: 1rem;	
+	width:90%;
+	height: fit-content;
+	border-radius: 1rem;
+    min-height: 13rem;
+	
+}
+.eventMisc_Int{
+	margin-top: 1rem;	
+	width:90%;
+	height: 5%;
+	border-radius: 1rem;
+ 
+	
+}
+.eventReg_Int{
+	margin-top: 1rem;	
+	width:90%;
+	height: 10%;
+	border-radius: 1rem;
+	border: #D0AB7C solid 1px;
+}
+
+.top{
+    padding: 1rem;
+}
+
+    @media only screen and (max-width: 767px){
+
+        .cardContainer_Int{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding-left: 0vw;
+            justify-content: center;
+        }
+       
+        .eventDetails_Int{
+            min-height: 0px;
+        }
+        .eventCard_Int{
+            min-height: 0vh;
+            width:90vw;
+            margin-left: 0px;
+        }
+        
+    }

@@ -155,7 +155,7 @@ function App() {
                            </ul>
                            
                            <div className="l-header__container__nl u-justify-content-end u-none u-flex--lg">
-                            <a href="/register">  <button className="c-cta u-justify-content-center u-align-items-center u-cursor-pointer" data-v-8f71f97c="" to="">
+                            <a onClick={()=>scrollToElement('events')}>  <button className="c-cta u-justify-content-center u-align-items-center u-cursor-pointer" data-v-8f71f97c="" to="">
                                    <span className="c-cta__name" data-v-8f71f97c="" data-text="Register">
                                        <span data-v-8f71f97c="">Register</span>
                                    </span>
