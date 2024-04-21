@@ -115,8 +115,10 @@ justify-content: space-between;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
+    height: fit-content;
 	padding-top: 1.1rem;
+    padding-bottom: 1.5rem;
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.8);
 }
@@ -130,7 +132,8 @@ padding-left: 2vw;
 	display: flex;
 	flex-direction: column;
 	width: 40vw;
-	height: 86vh;
+	min-height: 86vh;
+    height: fit-content;
 	background-color: #110302;
 	border-radius: 1rem;
 	margin-top: 2.2rem;
@@ -138,7 +141,7 @@ padding-left: 2vw;
 	align-items: center;
 	padding-bottom: 2rem;
 	margin-left: 2vw;
-	min-height: 60rem;
+	
 }
 .eventCardExp_Int{
 	min-height: 0px;
@@ -204,7 +207,7 @@ object-fit: cover;
             min-height: 0px;
         }
         .eventCard_Int{
-            min-height: 0vh;
+            
             width:90vw;
             margin-left: 0px;
         }

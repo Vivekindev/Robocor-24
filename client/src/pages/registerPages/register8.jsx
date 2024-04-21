@@ -85,8 +85,7 @@ return(
                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                 
+         
               </ul>  
               </div>
          
