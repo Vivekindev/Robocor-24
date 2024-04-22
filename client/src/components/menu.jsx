@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import handleDownload from '../functions/handleDownload.jsx';
+import rulebook from '../assets/rulebook.pdf'
 import './menu.css'
 import Btn from './btn'
 const menu = () => {
@@ -77,7 +78,7 @@ const menu = () => {
                  <a href="#landing"><div className="btn" onClick={closeMenu}><Btn data="Home" /></div></a>  
                  <a href="#events"><div className="btn" onClick={closeMenu}><Btn data="Events" /></div></a>  
                  <a href="#sponsors"><div className="btn" onClick={closeMenu}><Btn data="Sponsors" /></div></a> 
-                 <a onClick={()=>handleDownload('rulebook.pdf')}><div className="btn" onClick={closeMenu}><Btn data="Rule Book" /></div></a>  
+                 <a href={rulebook} download="Robocor'24(RuleBook).pdf"><div className="btn" onClick={closeMenu}><Btn data="Rule Book" /></div></a>  
                  <a href="#events"><div className="btn" onClick={closeMenu}><Btn data="Register" /></div></a>
                  <a href="#footer"><div className="btn" onClick={closeMenu}><Btn data="About" /></div></a>   
                 </div>
