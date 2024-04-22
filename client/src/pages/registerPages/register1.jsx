@@ -33,16 +33,21 @@ return(
              </div>
              <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>
              <div className="eventRules">
-               
-              <ul>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
 
-             </ul>  
+             <ul>
+             <li>For the first round, a set of 40 questions on coding aptitude will be provided.</li>
+             <li>Separate 1st round for 1st years and whoever comes first will get a consolation prize.</li>
+             <li>Top 10 teams of 1st round will be selected.</li>
+             <li>2nd round will be organized on HackerRank.com</li>
+             <li>There will be 4 programming questions</li>
+             <li>All participants must report at the venue 30 minutes before the event's commencement.</li>
+             <li>The participants Id card must be signed by the coordinator.</li>
+             <li>No time extension will be provided.</li>
+             <li>Timing will be used as tie breaker.</li>
+             <li>Copy pasting of code will not be allowed.</li>
+             <li>Browsing or opening any other tab will not be allowed.</li>
+              </ul> 
+               
              </div>
          </div>        
              <div className="rightBottom">
@@ -72,8 +77,8 @@ return(
             
              <div className="eventMisc_Int">
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > timing</span> <span style={{ fontSize:"1.1rem"}}>: 10:30 AM </span>
-             <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > venue</span> <span style={{ fontSize:"1.1rem"}}> :  TEL 101</span><br></br>
-             <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 2</span> 
+             <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > venue</span> <span style={{ fontSize:"1.1rem"}}> :  TEL 101</span>
+             <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 2</span><br></br> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 1</span>
              </div>
              <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>   </div>
@@ -82,11 +87,17 @@ return(
              <div className="eventRules" style={{marginLeft:"1.2rem"}}>
                
                <ul>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-         
+             <li>For the first round, a set of 40 questions on coding aptitude will be provided.</li>
+             <li>Separate 1st round for 1st years and whoever comes first will get a consolation prize.</li>
+             <li>Top 10 teams of 1st round will be selected.</li>
+             <li>2nd round will be organized on HackerRank.com</li>
+             <li>There will be 4 programming questions</li>
+             <li>All participants must report at the venue 30 minutes before the event's commencement.</li>
+             <li>The participants Id card must be signed by the coordinator.</li>
+             <li>No time extension will be provided.</li>
+             <li>Timing will be used as tie breaker.</li>
+             <li>Copy pasting of code will not be allowed.</li>
+             <li>Browsing or opening any other tab will not be allowed.</li>
               </ul>  
               </div>
          

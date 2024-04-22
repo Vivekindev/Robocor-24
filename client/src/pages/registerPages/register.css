@@ -6,7 +6,7 @@ ul {
   
   /* Optional: style for list items */
   ul li {
-    margin-bottom: 5px; /* Adds space between list items */
+    margin-bottom: 10px; /* Adds space between list items */
   }
 .eventRules{
     padding: 1.5rem;
@@ -118,7 +118,7 @@ justify-content: space-between;
 	min-height: 100vh;
     height: fit-content;
 	padding-top: 1.1rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 5rem;
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.8);
 }
