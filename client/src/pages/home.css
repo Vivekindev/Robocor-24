@@ -296,6 +296,7 @@ body {
 		margin-right: 0px;
 		width: 85vw;
 		height: 100%;
+		max-height: fit-content;
 	}
 	.cardContainer{
 		display: flex;
