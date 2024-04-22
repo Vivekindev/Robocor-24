@@ -6,6 +6,7 @@ import handleDownload from '../../functions/handleDownload.jsx';
 import BtnDesktop from '../../components/btnDesktop.jsx'
 import quiz from '../../assets/compressed/quiz.jpg'
 import { useState } from 'react';
+import rulebook from '../../assets/rulebook.pdf'
 const Register = ()=>{
 const [clicked,setClicked] = useState(false);
 const [iframe,setIframe] = useState(false);
@@ -30,24 +31,26 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > venue</span> <span style={{ fontSize:"1.1rem"}}> : Faraday seminar hall</span>
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 1</span> 
              </div>
-             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>
+             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>
              <div className="eventRules">
                
-              <ul>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-
-             </ul>  
+             <ul>
+    <li>This event consists of 2 rounds.</li>
+    <li>Round 1 consists of 40 questions.</li>
+    <li>A particular number of teams will qualify for the 2nd round. The decision will be taken by judges.</li>
+    <li>The 2nd round will be a buzzer round.</li>
+    <li>Quiz questions will be displayed on the smart board for round 2.</li>
+    <li>The number of questions in round 2 will be a minimum of 20 and a maximum of 30.</li>
+    <li>Participants will not be allowed to take part without ID cards allotted by the coordinator.</li>
+    <li>Extra questions will be asked as tie-breakers for particular teams.</li>
+    <li>Any kind of outside help or use of the internet isn't allowed. If caught, the team will be disqualified.</li>
+</ul>  
              </div>
          </div>        
              <div className="rightBottom">
              <div className="eventName_event">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' > fee : </span><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>50₹</span>   </div>
             <div style={{width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
-            <div onClick={()=>handleDownload('rulebook.pdf')} > {(window.innerWidth>700) ? (<BtnDesktop data="Rule Book"/>) : (<Btn data="Rule Book"/>)}</div>
+            <a href={rulebook} download="Robocor'24(RuleBook).pdf"><div > {(window.innerWidth>700) ? (<BtnDesktop data="Rule Book"/>) : (<Btn data="Rule Book"/>)}</div></a>
             <div onClick={()=>setClicked(true)}> {(window.innerWidth>700) ? (<BtnDesktop data="Proceed to Checkout"/>) : (<Btn data="Proceed to Checkout"/>)}</div> 
             </div>
             </div>
@@ -75,18 +78,22 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 1</span> 
   
              </div>
-             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>   </div>
+             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>   </div>
  
              
              <div className="eventRules" style={{marginLeft:"1.2rem"}}>
                
-               <ul>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-         
-              </ul>  
+             <ul>
+    <li>This event consists of 2 rounds.</li>
+    <li>Round 1 consists of 40 questions.</li>
+    <li>A particular number of teams will qualify for the 2nd round. The decision will be taken by judges.</li>
+    <li>The 2nd round will be a buzzer round.</li>
+    <li>Quiz questions will be displayed on the smart board for round 2.</li>
+    <li>The number of questions in round 2 will be a minimum of 20 and a maximum of 30.</li>
+    <li>Participants will not be allowed to take part without ID cards allotted by the coordinator.</li>
+    <li>Extra questions will be asked as tie-breakers for particular teams.</li>
+    <li>Any kind of outside help or use of the internet isn't allowed. If caught, the team will be disqualified.</li>
+</ul> 
               </div>
          
              <div style={{marginTop:"auto",justifyContent:"center",alignItems:"center",display:"flex"}} className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > fee : </span><span style={{  fontFamily:"jedi",fontSize:"2.2rem"}}> 50₹</span>   </div>

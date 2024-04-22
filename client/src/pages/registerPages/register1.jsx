@@ -6,6 +6,7 @@ import handleDownload from '../../functions/handleDownload.jsx';
 import BtnDesktop from '../../components/btnDesktop.jsx'
 import bytewars from '../../assets/compressed/bytewars.jpg'
 import { useState } from 'react';
+import rulebook from '../../assets/rulebook.pdf'
 const Register = ()=>{
 const [clicked,setClicked] = useState(false);
 const [iframe,setIframe] = useState(false);
@@ -31,7 +32,7 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 2</span> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 1</span>
              </div>
-             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>
+             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>
              <div className="eventRules">
 
              <ul>
@@ -53,7 +54,7 @@ return(
              <div className="rightBottom">
              <div className="eventName_event">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' > fee : </span><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>100₹</span>   </div>
             <div style={{width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
-            <div onClick={()=>handleDownload('rulebook.pdf')} > {(window.innerWidth>700) ? (<BtnDesktop data="Rule Book"/>) : (<Btn data="Rule Book"/>)}</div>
+            <a href={rulebook} download="Robocor'24(RuleBook).pdf"> <div> {(window.innerWidth>700) ? (<BtnDesktop data="Rule Book"/>) : (<Btn data="Rule Book"/>)}</div> </a>  
             <div onClick={()=>setClicked(true)}> {(window.innerWidth>700) ? (<BtnDesktop data="Proceed to Checkout"/>) : (<Btn data="Proceed to Checkout"/>)}</div> 
             </div>
             </div>
@@ -81,7 +82,7 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 2</span><br></br> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 1</span>
              </div>
-             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>   </div>
+             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>   </div>
  
              
              <div className="eventRules" style={{marginLeft:"1.2rem"}}>

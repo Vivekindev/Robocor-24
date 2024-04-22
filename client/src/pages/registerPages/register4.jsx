@@ -6,6 +6,7 @@ import handleDownload from '../../functions/handleDownload.jsx';
 import BtnDesktop from '../../components/btnDesktop.jsx'
 import starcrawl from '../../assets/compressed/starcrawl.jpg'
 import { useState } from 'react';
+import rulebook from '../../assets/rulebook.pdf'
 const Register = ()=>{
 const [clicked,setClicked] = useState(false);
 const [iframe,setIframe] = useState(false);
@@ -31,24 +32,26 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 4</span> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 2</span>
              </div>
-             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>
+             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>
              <div className="eventRules">
                
-              <ul>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-
-             </ul>  
+             <ul>
+                  <li>The arena will consist of the following terrains: Pebble, Sand, Water, Bumps, Wedges and Other obstacles.</li>
+                  <li>The width of the track will be 65cm </li>
+                  <li>If the bot goes out of the track, penalty time will be added to the final track completion time</li>
+                  <li>The bot should fit in a box of dimensions 30cm x 30cm x 30cm</li>
+                  <li>The power supply used can be a maximum of 12 Volts which can either be on board or off board. IC Engines are not allowed</li>
+                  <li>The event will be carried out in two rounds</li>
+                  <li>In qualifying round, the bot has to pass through maximum number of checkpoints in a given time</li>
+                  <li>Only 2 members of a team are allowed to control the bot during the race</li>
+                  <li>The bot will be disqualified if any part fails or falls off in the arena and is unable to continue</li>
+              </ul>  
              </div>
          </div>        
              <div className="rightBottom">
              <div className="eventName_event">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' > fee : </span><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>400₹</span>   </div>
             <div style={{width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
-            <div onClick={()=>handleDownload('rulebook.pdf')} > {(window.innerWidth>700) ? (<BtnDesktop data="Rule Book"/>) : (<Btn data="Rule Book"/>)}</div>
+            <a href={rulebook} download="Robocor'24(RuleBook).pdf"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Rule Book"/>) : (<Btn data="Rule Book"/>)}</div> </a>  
             <div onClick={()=>setClicked(true)}> {(window.innerWidth>700) ? (<BtnDesktop data="Proceed to Checkout"/>) : (<Btn data="Proceed to Checkout"/>)}</div> 
             </div>
             </div>
@@ -76,17 +79,21 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 4</span> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 2</span>
              </div>
-             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>   </div>
+             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>   </div>
  
              
              <div className="eventRules" style={{marginLeft:"1.2rem"}}>
                
                <ul>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-         
+                  <li>The arena will consist of the following terrains: Pebble, Sand, Water, Bumps, Wedges and Other obstacles.</li>
+                  <li>The width of the track will be 65cm </li>
+                  <li>If the bot goes out of the track, penalty time will be added to the final track completion time</li>
+                  <li>The bot should fit in a box of dimensions 30cm x 30cm x 30cm</li>
+                  <li>The power supply used can be a maximum of 12 Volts which can either be on board or off board. IC Engines are not allowed</li>
+                  <li>The event will be carried out in two rounds</li>
+                  <li>In qualifying round, the bot has to pass through maximum number of checkpoints in a given time</li>
+                  <li>Only 2 members of a team are allowed to control the bot during the race</li>
+                  <li>The bot will be disqualified if any part fails or falls off in the arena and is unable to continue</li>
               </ul>  
               </div>
          

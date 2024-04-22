@@ -7,7 +7,7 @@ import Menu from '../components/menu.jsx';
 import Map from '../components/map.jsx'
 import Btn from '../components/btn.jsx'
 import BtnDesktop from '../components/btnDesktop.jsx'
-
+import rulebook from '../assets/rulebook.pdf';
 import byteWars from '../assets/compressed/bytewars.jpg'
 import droidKick from '../assets/compressed/droidkick.jpg'
 import droidRace from '../assets/compressed/droidrace.jpg'
@@ -148,7 +148,7 @@ function App() {
                                    </a>
                                </li>
                                <li className="l-nav__item" data-v-6ddf8e5c="">
-                                   <a onClick={()=>handleDownload('rulebook.pdf')} className="t-text-gradient t-link  t-link--gradient " data-text="About" data-v-6ddf8e5c="">
+                                   <a href={rulebook} download="Robocor'24(RuleBook).pdf" className="t-text-gradient t-link  t-link--gradient " data-text="About" data-v-6ddf8e5c="">
                                        <span className="u-inline-block t-text-gradient " data-v-6ddf8e5c="" >Rule Book</span>
                                    </a>
                                </li>

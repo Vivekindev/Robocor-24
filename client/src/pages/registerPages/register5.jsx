@@ -6,6 +6,7 @@ import handleDownload from '../../functions/handleDownload.jsx';
 import BtnDesktop from '../../components/btnDesktop.jsx'
 import droidkick from '../../assets/compressed/droidkick.jpg'
 import { useState } from 'react';
+import rulebook from '../../assets/rulebook.pdf'
 const Register = ()=>{
 const [clicked,setClicked] = useState(false);
 const [iframe,setIframe] = useState(false);
@@ -31,24 +32,26 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 4</span> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 2</span>
              </div>
-             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>
+             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>
              <div className="eventRules">
                
-              <ul>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-
-             </ul>  
+             <ul>
+               <li>The robot should fit inside a box of 30cm x 30cm x 30cm</li>
+               <li>Robot should not exceed 8 kg</li>
+               <li>The robot can be wired, wireless or autonomous</li>
+               <li>The robot should be self-powered with supply not exceeding 12V (on board power supply).</li>
+               <li>A robot can push or hit the ball. It cannot withhold or grab the ball</li>
+               <li>If the ball goes out of arena, it will be placed in the centre and match will be resumed</li>
+               <li>In case of a tie, 3 penalties will be taken by each team</li>
+               <li>Human interference (e.g. touching the robot) during the game is not allowed.</li>
+               <li>No more AC/DC power supply will be provided at the sight of play</li>
+              </ul>   
              </div>
          </div>        
              <div className="rightBottom">
              <div className="eventName_event">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' > fee : </span><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>400₹</span>   </div>
             <div style={{width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
-            <div onClick={()=>handleDownload('rulebook.pdf')} > {(window.innerWidth>700) ? (<BtnDesktop data="Rule Book"/>) : (<Btn data="Rule Book"/>)}</div>
+            <a href={rulebook} download="Robocor'24(RuleBook).pdf"><div > {(window.innerWidth>700) ? (<BtnDesktop data="Rule Book"/>) : (<Btn data="Rule Book"/>)}</div> </a> 
             <div onClick={()=>setClicked(true)}> {(window.innerWidth>700) ? (<BtnDesktop data="Proceed to Checkout"/>) : (<Btn data="Proceed to Checkout"/>)}</div> 
             </div>
             </div>
@@ -76,17 +79,21 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 4</span> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 2</span>
              </div>
-             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>   </div>
+             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span> <a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>   </div>
  
              
              <div className="eventRules" style={{marginLeft:"1.2rem"}}>
                
                <ul>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-         
+               <li>The robot should fit inside a box of 30cm x 30cm x 30cm</li>
+               <li>Robot should not exceed 8 kg</li>
+               <li>The robot can be wired, wireless or autonomous</li>
+               <li>The robot should be self-powered with supply not exceeding 12V (on board power supply).</li>
+               <li>A robot can push or hit the ball. It cannot withhold or grab the ball</li>
+               <li>If the ball goes out of arena, it will be placed in the centre and match will be resumed</li>
+               <li>In case of a tie, 3 penalties will be taken by each team</li>
+               <li>Human interference (e.g. touching the robot) during the game is not allowed.</li>
+               <li>No more AC/DC power supply will be provided at the sight of play</li>
               </ul>  
               </div>
          

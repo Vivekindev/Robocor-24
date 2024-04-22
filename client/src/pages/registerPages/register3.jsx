@@ -6,6 +6,7 @@ import handleDownload from '../../functions/handleDownload.jsx';
 import BtnDesktop from '../../components/btnDesktop.jsx'
 import starlink from '../../assets/compressed/starlink.jpg'
 import { useState } from 'react';
+import rulebook from '../../assets/rulebook.pdf'
 const Register = ()=>{
 const [clicked,setClicked] = useState(false);
 const [iframe,setIframe] = useState(false);
@@ -31,24 +32,25 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 4</span> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 2</span>
              </div>
-             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>
+             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>
              <div className="eventRules">
                
-              <ul>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
+             <ul>
+                   <li>Teams must build their own wireless controlled Car for this event and no Lego Kit bots are allowed.</li>
+                   <li>The maximum dimensions of the wireless controlled Car should be 17cm (width) x 17cm (length) x 12cm (height).</li>
+                   <li>Robot must be controlled manually via wireless communication (Ex: Bluetooth, RF, Wi-Fi).</li>
+                   <li>Rules of the event: The cars are required to find their way out of a 3- dimensional maze collecting the coins along the way (Both positive and negative points for coins will be allotted).</li>
+                   <li>At the start of the race each team will be having X (to be decided on event day) amount of points which will keep decreasing by some points after each interval of time.</li>
+                   <li>The participants have to guide their car in an obstacle filled course. The obstacle course will test the car's speed and robustness.</li>
 
-             </ul>  
+
+              </ul>  
              </div>
          </div>        
              <div className="rightBottom">
              <div className="eventName_event">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' > fee : </span><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>400₹</span>   </div>
             <div style={{width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
-            <div onClick={()=>handleDownload('rulebook.pdf')} > {(window.innerWidth>700) ? (<BtnDesktop data="Rule Book"/>) : (<Btn data="Rule Book"/>)}</div>
+            <a href={rulebook} download="Robocor'24(RuleBook).pdf"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Rule Book"/>) : (<Btn data="Rule Book"/>)}</div> </a>   
             <div onClick={()=>setClicked(true)}> {(window.innerWidth>700) ? (<BtnDesktop data="Proceed to Checkout"/>) : (<Btn data="Proceed to Checkout"/>)}</div> 
             </div>
             </div>
@@ -76,17 +78,20 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 4</span> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 2</span>
              </div>
-             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>   </div>
+             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>   </div>
  
              
              <div className="eventRules" style={{marginLeft:"1.2rem"}}>
                
                <ul>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-               <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-         
+                   <li>Teams must build their own wireless controlled Car for this event and no Lego Kit bots are allowed.</li>
+                   <li>The maximum dimensions of the wireless controlled Car should be 17cm (width) x 17cm (length) x 12cm (height).</li>
+                   <li>Robot must be controlled manually via wireless communication (Ex: Bluetooth, RF, Wi-Fi).</li>
+                   <li>Rules of the event: The cars are required to find their way out of a 3- dimensional maze collecting the coins along the way (Both positive and negative points for coins will be allotted).</li>
+                   <li>At the start of the race each team will be having X (to be decided on event day) amount of points which will keep decreasing by some points after each interval of time.</li>
+                   <li>The participants have to guide their car in an obstacle filled course. The obstacle course will test the car's speed and robustness.</li>
+
+
               </ul>  
               </div>
          

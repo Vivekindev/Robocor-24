@@ -105,7 +105,26 @@ justify-content: space-between;
 
 
 
-
+    .moreBtn {
+        color: white;
+        font-size: 1.2rem;
+        border: 1px solid #D0AB7C;
+        padding: 0.2rem;
+        border-radius: 0.6rem;
+        width: 5rem;    
+        cursor: pointer;
+        text-align: center;
+        width: fit-content;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    
+    .moreBtn:active {
+        background-color: #D0AB7C; /* Change to whatever color you'd like */
+        
+    }
+    
 
 
 

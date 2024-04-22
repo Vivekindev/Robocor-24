@@ -6,6 +6,7 @@ import handleDownload from '../../functions/handleDownload.jsx';
 import BtnDesktop from '../../components/btnDesktop.jsx'
 import droidrace from '../../assets/compressed/droidrace.jpg'
 import { useState } from 'react';
+import rulebook from '../../assets/rulebook.pdf'
 const Register = ()=>{
 const [clicked,setClicked] = useState(false);
 const [iframe,setIframe] = useState(false);
@@ -31,24 +32,24 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 4</span> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 2</span>
              </div>
-             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>
+             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>
              <div className="eventRules">
                
-              <ul>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis, voluptatem iure tenetur quam eveniet debitis quas cupiditate dolorem cum!</li>
-
-             </ul>  
+             <ul>
+                <li>The Robot should be completely autonomous. It should not receive any sort of external assistance.</li>
+                 <li>The robot should fit in a cube of 30 cm cube side and weight is at choice.</li>
+                 <li>Surface of the racing track is white, with continuous black line (35 mm wide) drawn in the middle as the pilot line</li>
+                 <li>The robot should have on-board power supply and voltage between any two points on the robot should not exceed 12V.</li>
+                 <li>At any point of the time, only one robot is allowed into the arena with only one participant if necessary</li>
+                <li>The Robot must deal with lighting conditions as they appear. No changes will be made individually to any participant. IR focusing cameras and flash photography will be allowed unless judges deem such activities</li>
+               
+              </ul>  
              </div>
          </div>        
              <div className="rightBottom">
              <div className="eventName_event">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' > fee : </span><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>400₹</span>   </div>
             <div style={{width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
-            <div onClick={()=>handleDownload('rulebook.pdf')} > {(window.innerWidth>700) ? (<BtnDesktop data="Rule Book"/>) : (<Btn data="Rule Book"/>)}</div>
+            <a href={rulebook} download="Robocor'24(RuleBook).pdf"> <div> {(window.innerWidth>700) ? (<BtnDesktop data="Rule Book"/>) : (<Btn data="Rule Book"/>)}</div> </a> 
             <div onClick={()=>setClicked(true)}> {(window.innerWidth>700) ? (<BtnDesktop data="Proceed to Checkout"/>) : (<Btn data="Proceed to Checkout"/>)}</div> 
             </div>
             </div>
@@ -76,13 +77,19 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 4</span> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 2</span>
              </div>
-             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span>   </div>
+             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span> <a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>  </div>
  
              
              <div className="eventRules" style={{marginLeft:"1.2rem"}}>
                
                <ul>
                 <li>The Robot should be completely autonomous. It should not receive any sort of external assistance.</li>
+                 <li>The robot should fit in a cube of 30 cm cube side and weight is at choice.</li>
+                 <li>Surface of the racing track is white, with continuous black line |35 mm wide| drawn in the middle as the pilot line</li>
+                 <li>The robot should have on-board power supply and voltage between any two points on the robot should not exceed 12V.</li>
+                 <li>At any point of the time, only one robot is allowed into the arena with only one participant if necessary</li>
+                <li>The Robot must deal with lighting conditions as they appear. No changes will be made individually to any participant. IR focusing cameras and flash photography will be allowed unless judges deem such activities</li>
+               
               </ul>  
               </div>
          
