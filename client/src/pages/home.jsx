@@ -19,8 +19,8 @@ import handleDownload from '../functions/handleDownload.jsx';
 
 import sponsor1 from '../assets/sponsors/sponsor1.jpg'
 import sponsor2 from '../assets/sponsors/sponsor2.jpg'
-import sponsor3 from '../assets/sponsors/sponsor3.jpg'
-import sponsor4 from '../assets/sponsors/sponsor4.png'
+import sponsor4 from '../assets/sponsors/sponsor3.jpg'
+import sponsor3 from '../assets/sponsors/sponsor4.png'
 
 function App() {
     const [scrolling, setScrolling] = useState(false);
@@ -345,7 +345,7 @@ function App() {
 <div style={{marginBottom:"2rem"}}><span style={{  fontFamily:"jedi",fontSize:"4rem",padding:"1rem"}} className='gradient-text' > SP0NS0RS</span></div>
    <div className="sponsorsContainer">
 
-<div style={{marginBottom:"2rem"}}><img class="sponsorsImage"src={sponsor1} ></img></div>
+<div style={{marginBottom:"2rem"}}><img class="sponsorsImage"src={sponsor1} style={{filter: "saturate(125%)"}} ></img></div>
 <div style={{marginBottom:"2rem"}}><img class="sponsorsImage"src={sponsor2} ></img></div>
 <div style={{marginBottom:"2rem"}}><img class="sponsorsImage"src={sponsor3} ></img></div>
 <div style={{marginBottom:"2rem"}}><img class="sponsorsImage"src={sponsor4} ></img></div>
