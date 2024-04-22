@@ -81,7 +81,7 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 4</span> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 2</span>
              </div>
-             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">More</button></a><a href={abstract} download="abstract.pdf"><button class="moreBtn">Abstract</button></a>   </div>
+             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules :</span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">More</button></a><a href={abstract} download="abstract.pdf"><button class="moreBtn">Abstract</button></a>   </div>
  
              
              <div className="eventRules" style={{marginLeft:"1.2rem"}}>
