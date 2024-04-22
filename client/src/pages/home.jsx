@@ -321,7 +321,7 @@ function App() {
              </div>
              <div className="eventMisc">
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
-             <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Teamsize</span> : 4
+             <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Teamsize</span> : 1
              </div>
             <a href="/register/8"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
            </div>
