@@ -62,7 +62,7 @@ const Footer = () => {
                                 />
                             </a>
                            
-                            <a
+                            {/* <a
                                 href="https://wa.me/+916006499457"
                                 target="_blank"
                                 className="social-media-link w-inline-block"
@@ -74,7 +74,7 @@ const Footer = () => {
                                     alt=""
                                     className="social-media-icon"
                                 />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
 
@@ -100,7 +100,56 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
+                <div className="contactDiv">
 
+                    <div className="contactDivCard">
+                        <div className="leftContactDivCard">
+
+                        <div className="leftTop"><span style={{ fontSize: "2.2rem" ,fontFamily:"jedi"}} className='gradient-text'> ojas</span></div>    
+                        <div className="leftBottom">Chairman</div>
+                        </div>
+                        <div className="rightContactDivCard">
+                        <a
+                                href="https://wa.me/+916006499457"
+                                target="_blank"
+                                className="social-media-link w-inline-block"
+                            >
+                                <img
+                                    src={whatsapp}
+                                    style={{width:"3rem"}}
+                                    loading="lazy"
+                                    alt=""
+                                    className="social-media-icon"
+                                />
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div className="contactDivCard">
+                        <div className="leftContactDivCard">
+
+                        <div className="leftTop"><span style={{ fontSize: "2.2rem" ,fontFamily:"jedi"}} className='gradient-text'> ashish</span></div>    
+                        <div className="leftBottom">Vice Chairman</div>
+                        </div>
+                        <div className="rightContactDivCard">
+                        <a
+                                href="https://wa.me/+917619673936"
+                                target="_blank"
+                                className="social-media-link w-inline-block"
+                            >
+                                <img
+                                    src={whatsapp}
+                                    style={{width:"3rem"}}
+                                    loading="lazy"
+                                    alt=""
+                                    className="social-media-icon"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    
+                    </div>
                 <div className="footer-2-row">
                     <div className="small-p copyright">© 2024 Corsit. All rights reserved.</div>
                     
