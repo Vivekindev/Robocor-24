@@ -230,7 +230,7 @@ function App() {
              <img class="eventImage"src={byteWars} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > ByteWars</span>   </div>
              <div className="eventDetails">
-             Coding is an integral part of Robotics. Our coding event is designed to be both challenging and fun During this event, you will have the chance to compete with other talented programmers and solve challenging coding problems. The winners will be determined based on accuracy, efficiency, and speed.
+             Coding is an integral part of Robotics. Our coding event is designed to be both challenging and fun during this event, you will have the chance to compete with other talented programmers and solve challenging coding problems. The winners will be determined based on accuracy, efficiency, and speed.
              </div>
              <div className="eventMisc">
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
@@ -256,7 +256,7 @@ function App() {
              <img class="eventImage"src={starLink} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > StarLink  </span>   </div>
              <div className="eventDetails">
-             Gear up for rumbling engines, flamboyant wireless cars and adrenaline packed races at the all new Cross Roads. It's all about speed, control and accuracy, the bot that covers the track in the minimum time collecting the maximum points will be the champion. Now put effort into competition and conquer the field.
+             Prepare for the roar of engines, the sleek elegance of wireless vehicles, and heart-pounding races at the brand-new Starlink event. Speed, precision, and control are paramount - only the bot that dominates the track, collecting the most points in the least time, will claim victory. Gear up, compete fiercely, and conquer the field at Starlink.
              </div>
              <div className="eventMisc">
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
@@ -282,7 +282,7 @@ function App() {
              <img class="eventImage"src={droidKick} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > DroidKick  </span>   </div>
              <div className="eventDetails">
-             The objective is to design a manual robot which can compete compete against each other in a soccer arena. It will be a one vs one soccer match in which the aim will be to push the ball in the opponent's goal post. Our Robo Soccer event is designed to be both challenging and entertaining, providing you with the opportunity to win some fantastic prizes.
+             The objective is to design a manual robot which can compete against each other in a soccer arena. It will be a one vs one soccer match in which the aim will be to push the ball in the opponent's goal post. Our Robo Soccer event is designed to be both challenging and entertaining, providing you with the opportunity to win some fantastic prizes.
              </div>
              <div className="eventMisc">
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
@@ -308,7 +308,7 @@ function App() {
              <img class="eventImage"src={projectSymposium} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > Project symposium </span>   </div>
              <div className="eventDetails">
-             Are you ready to show your skills? A Platform to build, develop and showcase your ideas. The staple diet of all technical events is undoubtedly the presentation event, yet it has something in it which makes it exciting . Sweat your mind and work to innovate the future.take out your imagination into the real world and experience the unique satisfaction of ur dream come true.
+             Are you ready to show your skills? A Platform to build, develop and showcase your ideas. The staple diet of all technical events is undoubtedly the presentation event, yet it has something in it which makes it exciting. Sweat your mind and work to innovate the future. Take out your imagination into the real world and experience the unique satisfaction of your dream come true.
              </div>
              <div className="eventMisc">
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM

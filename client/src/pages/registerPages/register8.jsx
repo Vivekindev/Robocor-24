@@ -34,7 +34,7 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>
              <div className="eventRules">
                
-             <ul>
+             {/* <ul>
     <li>This event consists of 2 rounds.</li>
     <li>Round 1 consists of 40 questions.</li>
     <li>A particular number of teams will qualify for the 2nd round. The decision will be taken by judges.</li>
@@ -44,7 +44,9 @@ return(
     <li>Participants will not be allowed to take part without ID cards allotted by the coordinator.</li>
     <li>Extra questions will be asked as tie-breakers for particular teams.</li>
     <li>Any kind of outside help or use of the internet isn't allowed. If caught, the team will be disqualified.</li>
-</ul>  
+</ul>   */}
+
+            <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"20vh"}}><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>will be updated soon</span> </div>
              </div>
          </div>        
              <div className="rightBottom">
@@ -83,7 +85,7 @@ return(
              
              <div className="eventRules" style={{marginLeft:"1.2rem"}}>
                
-             <ul>
+             {/* <ul>
     <li>This event consists of 2 rounds.</li>
     <li>Round 1 consists of 40 questions.</li>
     <li>A particular number of teams will qualify for the 2nd round. The decision will be taken by judges.</li>
@@ -93,7 +95,10 @@ return(
     <li>Participants will not be allowed to take part without ID cards allotted by the coordinator.</li>
     <li>Extra questions will be asked as tie-breakers for particular teams.</li>
     <li>Any kind of outside help or use of the internet isn't allowed. If caught, the team will be disqualified.</li>
-</ul> 
+</ul>   */}
+
+<div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"10vh"}}><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>will be updated soon</span> </div>
+             
               </div>
          
              <div style={{marginTop:"auto",justifyContent:"center",alignItems:"center",display:"flex"}} className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > fee : </span><span style={{  fontFamily:"jedi",fontSize:"2.2rem"}}> 50₹</span>   </div>
