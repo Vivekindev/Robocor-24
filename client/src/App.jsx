@@ -8,6 +8,9 @@ import Register6 from './pages/registerPages/register6'
 import Register7 from './pages/registerPages/register7'
 import Register8 from './pages/registerPages/register8'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import ReactGA from "react-ga";
+
 const App = ()=>{
 
     return(
