@@ -229,6 +229,10 @@ function App() {
            <div className="eventCard">
              <img class="eventImage"src={byteWars} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > ByteWars</span>   </div>
+             <div className="eventMisc">
+             <button class="priceBtn"><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >1st price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 4000₹</span>
+             <button class="priceBtn" style={{marginLeft:"1.5rem"}}><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >2nd price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 3000₹</span>
+             </div>
              <div className="eventDetails">
              Coding is an integral part of Robotics. Our coding event is designed to be both challenging and fun during this event, you will have the chance to compete with other talented programmers and solve challenging coding problems. The winners will be determined based on accuracy, efficiency, and speed.
              </div>
@@ -242,6 +246,10 @@ function App() {
            <div className="eventCard">
              <img class="eventImage"src={droidRace} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > DroidRace </span>   </div>
+             <div className="eventMisc">
+             <button class="priceBtn"><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >1st price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 5000₹</span>
+             <button class="priceBtn" style={{marginLeft:"1.5rem"}}><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >2nd price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 3000₹</span>
+             </div>
              <div className="eventDetails">
              Fumble and it’s all over!! Trace it and track the prize!!! This event is for the code masters. Here’s your chance to prove your robot’s worth. A series of simple yet complex path are to be traced by the autonomous robot. Build the right circuit and test the precision of your programming. And as the saying goes, You don’t fall out of track and you shall emerge victorious.
              </div>
@@ -255,6 +263,10 @@ function App() {
            <div className="eventCard">
              <img class="eventImage"src={starLink} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > StarLink  </span>   </div>
+             <div className="eventMisc">
+             <button class="priceBtn"><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >1st price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 5000₹</span>
+             <button class="priceBtn" style={{marginLeft:"1.5rem"}}><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >2nd price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 3000₹</span>
+             </div>
              <div className="eventDetails">
              Prepare for the roar of engines, the sleek elegance of wireless vehicles, and heart-pounding races at the brand-new Starlink event. Speed, precision, and control are paramount - only the bot that dominates the track, collecting the most points in the least time, will claim victory. Gear up, compete fiercely, and conquer the field at Starlink.
              </div>
@@ -268,6 +280,10 @@ function App() {
            <div className="eventCard">
              <img class="eventImage"src={starCrawl} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > StarCrawl </span>   </div>
+             <div className="eventMisc">
+             <button class="priceBtn"><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >1st price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 5000₹</span>
+             <button class="priceBtn" style={{marginLeft:"1.5rem"}}><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >2nd price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 3000₹</span>
+             </div>
              <div className="eventDetails">
              Each participant has to design and build a manually controlled wired/wireless bot. During this event your robots will face various obstacles, such as navigating through rough terrain, climbing over obstacles, and crossing water barriers. The course is designed to test your robot's strength, speed, and adaptability as they go through challenging terrain.
              </div>
@@ -281,6 +297,10 @@ function App() {
            <div className="eventCard">
              <img class="eventImage"src={droidKick} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > DroidKick  </span>   </div>
+             <div className="eventMisc">
+             <button class="priceBtn"><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >1st price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 5000₹</span>
+             <button class="priceBtn" style={{marginLeft:"1.5rem"}}><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >2nd price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 3000₹</span>
+             </div>
              <div className="eventDetails">
              The objective is to design a manual robot which can compete against each other in a soccer arena. It will be a one vs one soccer match in which the aim will be to push the ball in the opponent's goal post. Our Robo Soccer event is designed to be both challenging and entertaining, providing you with the opportunity to win some fantastic prizes.
              </div>
@@ -294,6 +314,10 @@ function App() {
            <div className="eventCard">
              <img class="eventImage"src="https://content.instructables.com/FQ4/JS4F/JIKJZG1J/FQ4JS4FJIKJZG1J.jpg?auto=webp&frame=1&width=840&height=1024&fit=bounds&md=3ed8980f9bb925d6ce5c348a02f3708e" style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' >Arduino Craft</span>   </div>
+             <div className="eventMisc">
+             <button class="priceBtn"><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >1st price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 2500₹</span>
+             <button class="priceBtn" style={{marginLeft:"1.5rem"}}><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >2nd price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 1500₹</span>
+             </div>
              <div className="eventDetails">
              Welcome to our Arduino event! This is a fantastic opportunity for electronics enthusiasts to demonstrate your skills and knowledge by performing simple tasks using Arduino. Participants will have to go through a written test. The selected teams have to complete a task based on Arduino. The team conceding minimum time will be the winner.
              </div>
@@ -307,6 +331,10 @@ function App() {
            <div className="eventCard">
              <img class="eventImage"src={projectSymposium} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > Project symposium </span>   </div>
+             <div className="eventMisc">
+             <button class="priceBtn"><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >1st price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 4000₹</span>
+             <button class="priceBtn" style={{marginLeft:"1.5rem"}}><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >2nd price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 2000₹</span>
+             </div>
              <div className="eventDetails">
              Are you ready to show your skills? A Platform to build, develop and showcase your ideas. The staple diet of all technical events is undoubtedly the presentation event, yet it has something in it which makes it exciting. Sweat your mind and work to innovate the future. Take out your imagination into the real world and experience the unique satisfaction of your dream come true.
              </div>
@@ -320,6 +348,10 @@ function App() {
            <div className="eventCard">
              <img class="eventImage"src={quiz} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > quizzy Brainiacs </span>   </div>
+             <div className="eventMisc">
+             <button class="priceBtn"><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >1st price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 1000₹</span>
+             <button class="priceBtn" style={{marginLeft:"1.5rem"}}><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >2nd price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 500₹</span>
+             </div>
              <div className="eventDetails">
 
              Join us for our robotics quiz event! Get ready to challenge your knowledge and problem-solving abilities in the exciting field of robotics. It's an opportunity to push your boundaries and showcase your skills. Let's dive in and explore the world of robots together!

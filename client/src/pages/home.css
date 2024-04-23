@@ -1,3 +1,5 @@
+
+
 .gradient-text {
   background: linear-gradient(to right, #D4AE7E, #856550); /* Define your gradient colors */
   -webkit-background-clip: text; /* Clip text to the background shape (the gradient) */
@@ -16,6 +18,22 @@
 .col{
 	flex-direction: column;
 }
+
+.priceBtn {
+	color: white;
+	font-size: 1.2rem;
+	border: 1px solid #D0AB7C;
+	padding: 0.2rem;
+	border-radius: 0.4rem;
+	width: 5rem;    
+	cursor: pointer;
+	text-align: center;
+	width: fit-content;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+	
+}
+
 /*-----------------------------eventCard--------------------------------- */
 .cardContainer{
 display: flex;
