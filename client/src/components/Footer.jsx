@@ -1,5 +1,5 @@
 import './Footer.css';
-
+import rulebook from '../assets/rulebook.pdf'
 import whatsapp from '../assets/whatsapp.png';
 const Footer = () => {
     return (
@@ -79,24 +79,24 @@ const Footer = () => {
                     </div>
 
                     <div className="footer-navigation-wrap">
-                        <a href="/projects" className="footer-nav-link w-inline-block">
-                            <div>Projects</div>
+                        <a href="https://robocor24.cyclic.app/" className="footer-nav-link w-inline-block">
+                            <div>Home</div>
                         </a>
-                        <a href="/faq" className="footer-nav-link w-inline-block">
-                            <div>faq</div>
+                        <a href={rulebook} download="Robocor'24(RuleBook).pdf" className="footer-nav-link w-inline-block">
+                            <div>Rule Book</div>
                         </a>
-                        <a href="/about" className="footer-nav-link w-inline-block">
+                        <a href="https://www.corsit.in/" className="footer-nav-link w-inline-block">
                             <div>about</div>
                         </a>
                         
-                        <a href="/subscribe" target="_blank" className="footer-nav-link w-inline-block">
+                        <a href="https://www.youtube.com/@corsit547" target="_blank" className="footer-nav-link w-inline-block">
                             <div>subscribe</div>
                         </a>
                         <a href="mailto:corsit@sit.ac.in" className="footer-nav-link w-inline-block">
-                            <div>contact us</div>
+                            <div>contact</div>
                         </a>
-                        <a href="/support" className="footer-nav-link w-inline-block">
-                            <div>support</div>
+                        <a href="https://www.instagram.com/corsit.sit" className="footer-nav-link w-inline-block">
+                            <div>follow</div>
                         </a>
                     </div>
                 </div>
