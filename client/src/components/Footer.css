@@ -12,11 +12,7 @@
   
 }
 
-@media only screen and (max-width: 767px) {
-  .contactDiv{
-    width: 95%;
-  }
-}
+
 .contactDivCard{
   height: 7rem;
   width: 48%;
@@ -29,7 +25,7 @@
 
 }
 .leftContactDivCard{
-width: 60%;
+width: 65%;
 height: 100%;
 padding: 1rem;
 }
@@ -51,6 +47,17 @@ padding: 1rem;
   font-size: 1rem;
 }
 
+@media only screen and (max-width: 767px) {
+  .contactDiv{
+    width: 95%;
+  }
+  .rightContactDivCard{
+     width: 80;
+  }
+  .leftContactDivCard{
+    width: 20;
+  }
+}
 @font-face {
   font-family: 'jedi';
   src: url('../assets/STJEDISE.TTF') format('truetype');
