@@ -35,17 +35,21 @@ return(
              <div className="eventRules">
                
 <ul>
-    <li>This event consists of 1 round.</li>
+    <li>This event consists of 2 rounds.</li>
     <li>The quiz will be conducted in online mode (using Slido platform).</li>
-    <li>The number of questions will be 40.</li>
     <li>Proper internet connectivity will be required.</li>
     <li>The quiz can be attempted from anywhere.</li>
-    <li>Three slots will be given to attend the quiz. In any one slot, you can attend the quiz. If you miss the slot, you will not get another chance.</li>
+    <li>The number of questions will be 40 in the first round and 20 in the second round.</li>
+    <li>Quiz round 1 start timing is 12:45 pm.</li>
+    <li>Round 2 timings will be announced later for those who qualify for round 1.</li>
+    <li>Quiz timings will be very strict; if you miss the slot, you will not get another chance.</li>
+    <li>The top 30 will be selected for round 2.</li>
     <li>Winners are determined based on the maximum score.</li>
-    <li>If scores are tied for both participants, the winner will be declared based on timing.</li>
+    <li>If scores are tied for both participants, the winner will be declared based on timings.</li>
     <li>If there is still a tie, then one more round will be conducted.</li>
-    <li>The judge's decision will be final.</li>
+    <li>The judges' decision will be final.</li>
 </ul>
+
 
            {/* <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"20vh"}}><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>will be updated soon</span> </div>*/}
              </div>
@@ -86,18 +90,22 @@ return(
              
              <div className="eventRules" style={{marginLeft:"1.2rem"}}>
                
-<ul>
-    <li>This event consists of 1 round.</li>
+             <ul>
+    <li>This event consists of 2 rounds.</li>
     <li>The quiz will be conducted in online mode (using Slido platform).</li>
-    <li>The number of questions will be 40.</li>
     <li>Proper internet connectivity will be required.</li>
     <li>The quiz can be attempted from anywhere.</li>
-    <li>Three slots will be given to attend the quiz. In any one slot, you can attend the quiz. If you miss the slot, you will not get another chance.</li>
+    <li>The number of questions will be 40 in the first round and 20 in the second round.</li>
+    <li>Quiz round 1 start timing is 12:45 pm.</li>
+    <li>Round 2 timings will be announced later for those who qualify for round 1.</li>
+    <li>Quiz timings will be very strict; if you miss the slot, you will not get another chance.</li>
+    <li>The top 30 will be selected for round 2.</li>
     <li>Winners are determined based on the maximum score.</li>
-    <li>If scores are tied for both participants, the winner will be declared based on timing.</li>
+    <li>If scores are tied for both participants, the winner will be declared based on timings.</li>
     <li>If there is still a tie, then one more round will be conducted.</li>
-    <li>The judge's decision will be final.</li>
+    <li>The judges' decision will be final.</li>
 </ul>
+
 
 
 {/*<div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"10vh"}}><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>will be updated soon</span> </div>*/}
