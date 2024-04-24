@@ -357,7 +357,7 @@ function App() {
              Join us for our robotics quiz event! Get ready to challenge your knowledge and problem-solving abilities in the exciting field of robotics. It's an opportunity to push your boundaries and showcase your skills. Let's dive in and explore the world of robots together!
              </div>
              <div className="eventMisc">
-             <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 10:30 AM
+             <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 12:45 PM
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Teamsize</span> : 1
              </div>
             <a href="/register/8"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
