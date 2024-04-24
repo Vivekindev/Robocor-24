@@ -34,11 +34,9 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>
              <div className="eventRules">
                
-<ul>
+ <ul>
     <li>This event consists of 2 rounds.</li>
     <li>The quiz will be conducted in online mode (using Slido platform).</li>
-    <li>Proper internet connectivity will be required.</li>
-    <li>The quiz can be attempted from anywhere.</li>
     <li>The number of questions will be 40 in the first round and 20 in the second round.</li>
     <li>Quiz round 1 start timing is 12:45 pm.</li>
     <li>Round 2 timings will be announced later for those who qualify for round 1.</li>
@@ -46,7 +44,6 @@ return(
     <li>The top 30 will be selected for round 2.</li>
     <li>Winners are determined based on the maximum score.</li>
     <li>If scores are tied for both participants, the winner will be declared based on timings.</li>
-    <li>If there is still a tie, then one more round will be conducted.</li>
     <li>The judges' decision will be final.</li>
 </ul>
 
@@ -93,8 +90,6 @@ return(
              <ul>
     <li>This event consists of 2 rounds.</li>
     <li>The quiz will be conducted in online mode (using Slido platform).</li>
-    <li>Proper internet connectivity will be required.</li>
-    <li>The quiz can be attempted from anywhere.</li>
     <li>The number of questions will be 40 in the first round and 20 in the second round.</li>
     <li>Quiz round 1 start timing is 12:45 pm.</li>
     <li>Round 2 timings will be announced later for those who qualify for round 1.</li>
@@ -102,7 +97,6 @@ return(
     <li>The top 30 will be selected for round 2.</li>
     <li>Winners are determined based on the maximum score.</li>
     <li>If scores are tied for both participants, the winner will be declared based on timings.</li>
-    <li>If there is still a tie, then one more round will be conducted.</li>
     <li>The judges' decision will be final.</li>
 </ul>
 
