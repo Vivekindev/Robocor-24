@@ -28,25 +28,26 @@ return(
             
              <div className="eventMisc_event" style={{marginBottom:"2rem"}}>
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > timing</span> <span style={{ fontSize:"1.1rem"}}>: 10:30 AM </span>
-             <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > venue</span> <span style={{ fontSize:"1.1rem"}}> : ---</span>
+             <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > venue</span> <span style={{ fontSize:"1.1rem"}}> : Online Mode</span>
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 1</span> 
              </div>
              <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">more</button></a>
              <div className="eventRules">
                
-             {/* <ul>
-    <li>This event consists of 2 rounds.</li>
-    <li>Round 1 consists of 40 questions.</li>
-    <li>A particular number of teams will qualify for the 2nd round. The decision will be taken by judges.</li>
-    <li>The 2nd round will be a buzzer round.</li>
-    <li>Quiz questions will be displayed on the smart board for round 2.</li>
-    <li>The number of questions in round 2 will be a minimum of 20 and a maximum of 30.</li>
-    <li>Participants will not be allowed to take part without ID cards allotted by the coordinator.</li>
-    <li>Extra questions will be asked as tie-breakers for particular teams.</li>
-    <li>Any kind of outside help or use of the internet isn't allowed. If caught, the team will be disqualified.</li>
-</ul>   */}
+<ul>
+    <li>This event consists of 1 round.</li>
+    <li>The quiz will be conducted in online mode (using Slido platform).</li>
+    <li>The number of questions will be 40.</li>
+    <li>Proper internet connectivity will be required.</li>
+    <li>The quiz can be attempted from anywhere.</li>
+    <li>Three slots will be given to attend the quiz. In any one slot, you can attend the quiz. If you miss the slot, you will not get another chance.</li>
+    <li>Winners are determined based on the maximum score.</li>
+    <li>If scores are tied for both participants, the winner will be declared based on timing.</li>
+    <li>If there is still a tie, then one more round will be conducted.</li>
+    <li>The judge's decision will be final.</li>
+</ul>
 
-            <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"20vh"}}><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>will be updated soon</span> </div>
+           {/* <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"20vh"}}><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>will be updated soon</span> </div>*/}
              </div>
          </div>        
              <div className="rightBottom">
@@ -76,7 +77,7 @@ return(
             
              <div className="eventMisc_Int">
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > timing</span> <span style={{ fontSize:"1.1rem"}}>: 10:30 AM </span>
-             <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > venue</span> <span style={{ fontSize:"1.1rem"}}> : ---</span><br></br>
+             <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > venue</span> <span style={{ fontSize:"1.1rem"}}> : Online Mode</span><br></br>
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 1</span> 
   
              </div>
@@ -85,19 +86,21 @@ return(
              
              <div className="eventRules" style={{marginLeft:"1.2rem"}}>
                
-             {/* <ul>
-    <li>This event consists of 2 rounds.</li>
-    <li>Round 1 consists of 40 questions.</li>
-    <li>A particular number of teams will qualify for the 2nd round. The decision will be taken by judges.</li>
-    <li>The 2nd round will be a buzzer round.</li>
-    <li>Quiz questions will be displayed on the smart board for round 2.</li>
-    <li>The number of questions in round 2 will be a minimum of 20 and a maximum of 30.</li>
-    <li>Participants will not be allowed to take part without ID cards allotted by the coordinator.</li>
-    <li>Extra questions will be asked as tie-breakers for particular teams.</li>
-    <li>Any kind of outside help or use of the internet isn't allowed. If caught, the team will be disqualified.</li>
-</ul>   */}
+<ul>
+    <li>This event consists of 1 round.</li>
+    <li>The quiz will be conducted in online mode (using Slido platform).</li>
+    <li>The number of questions will be 40.</li>
+    <li>Proper internet connectivity will be required.</li>
+    <li>The quiz can be attempted from anywhere.</li>
+    <li>Three slots will be given to attend the quiz. In any one slot, you can attend the quiz. If you miss the slot, you will not get another chance.</li>
+    <li>Winners are determined based on the maximum score.</li>
+    <li>If scores are tied for both participants, the winner will be declared based on timing.</li>
+    <li>If there is still a tie, then one more round will be conducted.</li>
+    <li>The judge's decision will be final.</li>
+</ul>
 
-<div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"10vh"}}><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>will be updated soon</span> </div>
+
+{/*<div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"10vh"}}><span style={{  fontFamily:"jedi",fontSize:"2rem"}}>will be updated soon</span> </div>*/}
              
               </div>
          
