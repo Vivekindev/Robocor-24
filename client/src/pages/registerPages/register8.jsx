@@ -44,7 +44,7 @@ return(
     <li>The top 30 will be selected for round 2.</li>
     <li>Winners are determined based on the maximum score.</li>
     <li>If scores are tied for both participants, the winner will be declared based on timings.</li>
-    <li>The judges' decision will be final.</li>
+    <li>The judge's decision will be final.</li>
 </ul>
 
 
@@ -97,7 +97,7 @@ return(
     <li>The top 30 will be selected for round 2.</li>
     <li>Winners are determined based on the maximum score.</li>
     <li>If scores are tied for both participants, the winner will be declared based on timings.</li>
-    <li>The judges' decision will be final.</li>
+    <li>The judge's decision will be final.</li>
 </ul>
 
 
@@ -107,6 +107,7 @@ return(
               </div>
          
              <div style={{marginTop:"auto",justifyContent:"center",alignItems:"center",display:"flex"}} className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > fee : </span><span style={{  fontFamily:"jedi",fontSize:"2.2rem"}}> 50₹</span>   </div>
+            
             <div style={{marginBottom:"1rem"}} onClick={()=>setClicked(true)}> {(window.innerWidth>700) ? (<BtnDesktop data="Proceed to Checkout"/>) : (<Btn data="Proceed to Checkout"/>)}</div>
            </div>
    

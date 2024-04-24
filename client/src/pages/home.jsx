@@ -364,7 +364,7 @@ function App() {
            </div>
 
            </div>
-
+        <span style={{marginTop:"1rem"}}>*Registration fee is Non Refundable</span>
            </div>
            
 
