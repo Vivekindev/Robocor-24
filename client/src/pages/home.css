@@ -55,6 +55,9 @@ padding-left: 2vw;
 	margin-left: 2vw;
 	min-height: 60rem;
 }
+.last{
+	min-height: 64rem;
+}
 .eventCardExp{
 	min-height: 0px;
 }
@@ -84,6 +87,14 @@ object-fit: cover;
 	border-radius: 1rem;
     min-height: 13rem;
 	
+}
+.lastDetails{
+	font-size: 1.5rem;
+	margin-top: 1rem;	
+	width:90%;
+	height: fit-content;
+	border-radius: 1rem;
+    min-height: 10rem;
 }
 .eventMisc{
 	margin-top: 1rem;	

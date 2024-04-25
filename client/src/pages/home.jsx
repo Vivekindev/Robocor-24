@@ -328,7 +328,7 @@ function App() {
             <a href="/register/6"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
            </div>
 
-           <div className="eventCard">
+           <div className="eventCard last">
              <img class="eventImage"src={projectSymposium} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > Project symposium </span>   </div>
              <div className="eventMisc">
@@ -345,14 +345,15 @@ function App() {
             <a href="/register/7"><div> {(window.innerWidth>700) ? (<BtnDesktop data="Register"/>) : (<Btn data="Register"/>)}</div></a>
            </div>
            
-           <div className="eventCard">
+           <div className="eventCard last">
              <img class="eventImage"src={quiz} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName">  <span style={{  fontFamily:"jedi",fontSize:"2.2rem"}} className='gradient-text' > quizzy Brainiacs </span>   </div>
              <div className="eventMisc">
              <button class="priceBtn"><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >1st price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 1000₹</span>
              <button class="priceBtn" style={{marginLeft:"1.5rem"}}><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >2nd price</span></button><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} > : 500₹</span>
              </div>
-             <div className="eventDetails">
+             <div className="eventMisc" style={{paddingTop:"0.5rem",fontSize:"0.8rem"}}>* Prize money can be increased based on the participation</div>
+             <div className=" lastDetails">
 
              Join us for our robotics quiz event! Get ready to challenge your knowledge and problem-solving abilities in the exciting field of robotics. It's an opportunity to push your boundaries and showcase your skills. Let's dive in and explore the world of robots together!
              </div>
