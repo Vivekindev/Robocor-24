@@ -180,7 +180,7 @@ filter: drop-shadow(0 0 1.5px #D0AB7C);
  position: fixed;
  z-index: -2;
 	
-    opacity: 0.5; /* Set the opacity to 20% */
+    opacity: 0.3; /* Set the opacity to 20% */
 }
 
 .landing {
