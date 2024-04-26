@@ -16,6 +16,7 @@ import quiz from '../assets/compressed/quiz.jpg'
 import starCrawl from '../assets/compressed/starcrawl.jpg'
 import starLink from '../assets/compressed/starlink.jpg'
 import handleDownload from '../functions/handleDownload.jsx';
+import bgVideo from '../assets/videoplayback.webm'
 
 import sponsor1 from '../assets/sponsors/sponsor1.jpg'
 import sponsor2 from '../assets/sponsors/sponsor2.jpeg'
@@ -190,7 +191,12 @@ function App() {
                </div>
            </header>
        {/*-----------------------------------------------HEADER---------------------------------------------------------*/ }       
-           
+<div className="overlay">
+<video autoPlay loop muted>
+        <source src={bgVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+</div>
 <div id='landing'className="landing">  
    <div className="title">
       

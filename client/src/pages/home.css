@@ -174,8 +174,17 @@ filter: drop-shadow(0 0 1.5px #D0AB7C);
   background: #707070; /* Lighter color on hover */
 }
 
+.overlay{
+	height: 100vh;
+	width: 100%;
+ position: fixed;
+ z-index: -2;
+	
+    opacity: 0.5; /* Set the opacity to 20% */
+}
 
 .landing {
+	
 	
     height: 100vh;
     display: flex;
