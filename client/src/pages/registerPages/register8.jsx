@@ -73,7 +73,7 @@ return(
 
 
     <div className="eventCard_Int">
-             <img class="eventImage_Int"src={quiz} style={{borderRadius:"1rem"}}></img> 
+             <img class="eventImage_Int" src={quiz} style={{borderRadius:"1rem"}}></img> 
              <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2.5rem"}} className='gradient-text' > quizzy Brainiacs</span>   </div>
             
              <div className="eventMisc_Int">
