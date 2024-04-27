@@ -191,12 +191,7 @@ function App() {
                </div>
            </header>
        {/*-----------------------------------------------HEADER---------------------------------------------------------*/ }       
-<div className="overlay">
-<video className="video" autoPlay loop muted>
-        <source src={bgVideo} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-</div>
+
 <div id='landing'className="landing">  
    <div className="title">
       
