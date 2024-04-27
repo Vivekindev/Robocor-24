@@ -7,6 +7,7 @@ import Register5 from './pages/registerPages/register5'
 import Register6 from './pages/registerPages/register6'
 import Register7 from './pages/registerPages/register7'
 import Register8 from './pages/registerPages/register8'
+import Certificate from './pages/certificate'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import ReactGA from "react-ga";
@@ -17,6 +18,7 @@ const App = ()=>{
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/certificateasdf1234" element={<Certificate />} />
         <Route path='/register/1' element={<Register1 />} />
         <Route path='/register/2' element={<Register2 />} />
         <Route path='/register/3' element={<Register3 />} />
