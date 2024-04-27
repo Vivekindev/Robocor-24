@@ -1,4 +1,8 @@
-
+.video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
 
 .gradient-text {
   background: linear-gradient(to right, #D4AE7E, #856550); /* Define your gradient colors */
