@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import Cert from './certificate.png';
+import './certificate.css';
 
 const Certificate = () => {
   const [name, setName] = useState('');
@@ -42,10 +43,12 @@ const Certificate = () => {
   };
 
   return (
-    <div>
-      <input type="text" value={name} onChange={handleNameChange} placeholder="Enter your name" />
-      <button onClick={handleGenerateCertificate}>Generate Certificate</button>
-      <canvas ref={canvasRef} style={{ display: 'none' }}></canvas>
+    <div className="certificateContainer">
+      <div className="certBox">
+        <input type="text" className='inputField' value={name} onChange={handleNameChange} placeholder="Enter your name" />
+        <button className="certbtn" onClick={handleGenerateCertificate}>Generate Certificate</button>
+        <canvas ref={canvasRef} style={{ display: 'none' }}></canvas>
+      </div>
     </div>
   );
 }

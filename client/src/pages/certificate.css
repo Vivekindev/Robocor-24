@@ -1,0 +1,43 @@
+.certificateContainer {
+    background-color: #110302;
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .certBox {
+    text-align: center;
+  }
+  
+  .inputField {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ffffff !important; /* Add !important */
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    width: 70% !important;
+    
+  }
+  
+  .inputField::placeholder {
+    color: #ffffff;
+  }
+  
+  .certbtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    width: 70%;
+  }
+  
+  .certbtn:hover {
+    background-color: #dddddd;
+  }
+  
