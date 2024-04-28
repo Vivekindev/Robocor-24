@@ -1,13 +1,22 @@
 .certificateContainer {
     background-color: #110302;
-    height: 100vh; /* Adjust height as needed */
+    height: fit-content;
     display: flex;
-    justify-content: center;
+   justify-content: center;
     align-items: center;
+    width: 100%;
   }
   
   .certBox {
     text-align: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+   
   }
   
   .inputField {
@@ -18,12 +27,12 @@
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
-    width: 70% !important;
+    width: 80% !important;
     
   }
   
   .inputField::placeholder {
-    color: #ffffff;
+    color: #a9a9a9 !important;
   }
   
   .certbtn {
@@ -34,10 +43,48 @@
     background-color: #ffffff;
     color: #000000;
     cursor: pointer;
-    width: 70%;
+    width: 80%;
   }
   
   .certbtn:hover {
     background-color: #dddddd;
   }
+  .certbtn.verifying {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
   
+
+
+.certTitle{
+  font-family: "jedi";
+  position: fixed;
+  width:100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:0;
+  font-size: 2rem;
+
+  background-color: #000000;
+  border-bottom: 1px solid white;
+}
+  
+
+.inputField{
+  background-color: white;
+  color: #000000;
+}
+
+
+
+
+
+
+  @media only screen and (max-width: 767px){
+  
+.certBox{
+  width: 100%;
+}
+  }

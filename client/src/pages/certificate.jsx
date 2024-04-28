@@ -2,14 +2,27 @@ import React, { useState, useRef } from 'react';
 import Cert from './certificate.png';
 import './certificate.css';
 
-const Certificate = () => {
+const Certificate = ({ textX = 1600, textY = 910 }) => {
   const [name, setName] = useState('');
+  const [eventName, setEventName] = useState('');
+  const [email, setEmail] = useState('');
+  const [verifying, setVerifying] = useState(false);
   const canvasRef = useRef(null);
 
-  const textX = 1600; // Customize X coordinate here
-  const textY = 910; // Customize Y coordinate here
+  const isValidEmail = (email) => {
+    // Regular expression for email validation
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailPattern.test(email);
+  };
 
   const handleGenerateCertificate = () => {
+    if (!name.trim() || !eventName.trim() || !isValidEmail(email.trim())) {
+      alert('Please fill out all fields correctly.');
+      return;
+    }
+
+    setVerifying(true);
+
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
 
@@ -35,6 +48,8 @@ const Certificate = () => {
       link.href = canvas.toDataURL('image/png'); // Maintain PNG format for transparency support
       link.download = 'certificate.png';
       link.click();
+
+      setVerifying(false);
     };
   };
 
@@ -42,11 +57,60 @@ const Certificate = () => {
     setName(event.target.value);
   };
 
+  const handleEventNameChange = (event) => {
+    setEventName(event.target.value);
+  };
+
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+
   return (
     <div className="certificateContainer">
+      <div className="certTitle">Participation Certificate</div>
       <div className="certBox">
-        <input type="text" className='inputField' value={name} onChange={handleNameChange} placeholder="Enter your name" />
-        <button className="certbtn" onClick={handleGenerateCertificate}>Generate Certificate</button>
+      <select
+          className='inputField'
+          value={eventName}
+          style={{fontWeight:"800"}}
+          onChange={handleEventNameChange}
+        >
+          <option value="" disabled>Event Name</option>
+          <option value="ByteWars" >ByteWars</option>
+          <option value="DroidRace">DroidRace</option>
+          <option value="StarLink">StarLink</option>
+          <option value="StarCrawl">StarCrawl</option>
+          <option value="DroidKick">DroidKick</option>
+          <option value="Arduino Craft">Arduino Craft</option>
+          <option value="Project symposium">Project Symposium</option>
+          <option value="quizzy Brainiacs">Quizzy Brainiacs</option>
+        </select>
+
+        <input
+          type="text"
+          className='inputField'
+          style={{color:"white"}}
+          value={name}
+          onChange={handleNameChange}
+          placeholder="Enter your name"
+        />
+        
+        <input
+          type="email"
+          className='inputField'
+          style={{color:"white"}}
+          value={email}
+          onChange={handleEmailChange}
+          placeholder="Enter your email"
+        />
+        <button 
+          className="certbtn"
+          style={{ backgroundColor: verifying ? '#cccccc' : 'white', cursor: verifying ? 'not-allowed' : 'pointer' }} 
+          onClick={handleGenerateCertificate} 
+          disabled={verifying}
+        >
+          {verifying ? 'Verifying...' : 'Download Certificate'}
+        </button>
         <canvas ref={canvasRef} style={{ display: 'none' }}></canvas>
       </div>
     </div>
