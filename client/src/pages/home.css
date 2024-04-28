@@ -162,6 +162,7 @@ filter: drop-shadow(0 0 1.5px #D0AB7C);
     font-style: normal;
 }
 
+
 /* Track */
 ::-webkit-scrollbar-track {
   background: #000000; /* Dark background color */
