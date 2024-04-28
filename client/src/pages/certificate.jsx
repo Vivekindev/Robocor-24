@@ -1,7 +1,10 @@
 import React, { useState, useRef } from 'react';
 import Cert from './certificate.png';
 import './certificate.css';
-
+import Footer from '../components/Footer'
+import logo from '../assets/robocorLogo.png'
+import certificateGif from '../assets/certificate.gif'
+import certVideo from '../assets/videoLOOP.mp4'
 const Certificate = ({ textX = 1600, textY = 910 }) => {
   const [name, setName] = useState('');
   const [eventName, setEventName] = useState('');
@@ -66,16 +69,29 @@ const Certificate = ({ textX = 1600, textY = 910 }) => {
   };
 
   return (
+    <>
     <div className="certificateContainer">
-      <div className="certTitle">Participation Certificate</div>
+      <div className="certTitle">
+        <img src={logo} style={{width:"5rem",marginRight:"1rem"}}></img>
+        <div className="certNavbar"> 
+        <span className='gradient-text' style={{fontSize:"4rem",fontFamily:"jedi"}}>RoBoCoR'24</span> Participation Certificate
+
+        </div>
+        </div>
       <div className="certBox">
+      <div style={{ filter: `brightness(150%)`, marginBottom:"4rem" }}>
+      <video style={{width:"80%"}} autoPlay loop muted>
+        <source src={certVideo} type="video/mp4" />
+        CERTIFICATE
+      </video>  
+      </div>
       <select
           className='inputField'
           value={eventName}
           style={{fontWeight:"800"}}
           onChange={handleEventNameChange}
         >
-          <option value="" disabled>Event Name</option>
+          <option value="" disabled>Select Event</option>
           <option value="ByteWars" >ByteWars</option>
           <option value="DroidRace">DroidRace</option>
           <option value="StarLink">StarLink</option>
@@ -114,6 +130,8 @@ const Certificate = ({ textX = 1600, textY = 910 }) => {
         <canvas ref={canvasRef} style={{ display: 'none' }}></canvas>
       </div>
     </div>
+    <div id="footer"className="foot"><Footer/></div> 
+    </>
   );
 }
 
