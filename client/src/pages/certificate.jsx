@@ -4,7 +4,7 @@ import './certificate.css';
 import Footer from '../components/Footer'
 import logo from '../assets/robocorLogo.png'
 import certificateGif from '../assets/certificate.gif'
-import certVideo from '../assets/videoLOOP.mp4'
+import certVideo from '../assets/certLOOP.mp4'
 const Certificate = ({ textX = 1600, textY = 910 }) => {
   const [name, setName] = useState('');
   const [eventName, setEventName] = useState('');
