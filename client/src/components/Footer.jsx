@@ -10,7 +10,7 @@ const Footer = () => {
                     <span style={{ fontSize: "2rem" ,fontFamily:"jedi",fontSize:"4rem"}} className='gradient-text'> corsit</span>
               
                         <p className="paragraph-gradient">
-                        Corsit is the Robotics Club of Siddaganga Institute of Technology. Established in 2006,works under the patronage of eYantra cell of IIT Bombay.
+                        Corsit is the Robotics Club of Siddaganga Institute of Technology. Established in 2006, works under the patronage of e-Yantra cell of IIT Bombay.
                         </p>
                         <div className="footer-sm-wrap">
                             <a
