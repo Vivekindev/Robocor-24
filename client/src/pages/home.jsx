@@ -361,7 +361,7 @@ function App() {
              <div className="eventMisc" style={{paddingTop:"0.5rem",fontSize:"0.8rem"}}>* Prize money can be increased based on the participation</div>
              <div className=" lastDetails">
 
-             Join us for our robotics quiz event! Get ready to challenge your knowledge and problem-solving abilities in the exciting field of robotics. It's an opportunity to push your boundaries and showcase your skills. Let's dive in and explore the world of robots together!
+             Join us for a high-octane quiz event that will keep you on the edge of your seat! Prepare to think fast and answer questions with lightning speed. It's a pulse-pounding challenge where every moment counts. Let's jump into the action and discover who will claim victory in this exhilarating quiz showdown!
              </div>
              <div className="eventMisc">
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > Timing</span> : 12:45 PM
