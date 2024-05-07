@@ -1,0 +1,8 @@
+post http://localhost:3000/api/verifyCert
+Content-Type: application/json
+
+{
+    "email":"1si23is005@sit.ac.in",
+    "event":"starlink"
+    
+}

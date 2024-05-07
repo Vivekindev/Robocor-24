@@ -35,13 +35,13 @@ return(
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > teamsize</span> <span style={{ fontSize:"1.1rem"}}> : 4</span> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 2</span>
              </div>
-             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">More</button></a> <a href='./abstractProjectSymposium' download="abstract.docx"><button class="moreBtn">Abstract</button></a>
+             <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules : </span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">More</button></a> <a href='./abstractProjectSymposium' download="ProjectSymposium_ppt_template.pptx"><button class="moreBtn">PPT Template</button></a>
              <div className="eventRules">
                
              <ul>
                <li>There will be 2 rounds of judgement</li>
-               <li>The 1st round is paper presentation. Here the team presents their project in the form of a paper</li>
-               <li>The qualified team will enter the second round, where they present their actual project</li>
+               <li>The first round involves project demonstration, where each team must showcase their project in front of the judges.</li>
+               <li>Qualified teams will advance to the second round, where they will deliver presentations utilizing the designated PPT template available for download.</li>
                <li>Minimum one member should be there at desk at all times.</li>
                <li>Ideas related to robotics and new innovative technologies will help participants to gain bonus point.</li>
                <li>Project related to any domain will be accepted</li>
@@ -83,15 +83,15 @@ return(
              <button class="priceBtn" style={{marginTop:"0.6rem",marginRight:"0.5rem"}}><span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' >team size</span></button> <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > maximum</span> <span style={{ fontSize:"1.1rem"}}> : 4</span> 
              <span style={{  fontFamily:"jedi",fontSize:"1.1rem"}} className='gradient-text' > minimum</span> <span style={{ fontSize:"1.1rem"}}> : 2</span>
              </div>
-             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules :</span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">More</button></a><a href='./abstractProjectSymposium' download="abstract.docx"><button class="moreBtn">Abstract</button></a>   </div>
+             <div className="eventName_Int">  <span style={{  fontFamily:"jedi",fontSize:"2rem"}} className='gradient-text' >event rules :</span><a href={rulebook} download="Robocor'24(RuleBook).pdf"><button class="moreBtn">More</button></a><a href='./abstractProjectSymposium' download="ProjectSymposium_ppt_template.pptx"><button class="moreBtn">PPT Template</button></a>   </div>
  
              
              <div className="eventRules" style={{marginLeft:"1.2rem"}}>
                
              <ul>
                <li>There will be 2 rounds of judgement</li>
-               <li>The 1st round is paper presentation. Here the team presents their project in the form of a paper</li>
-               <li>The qualified team will enter the second round, where they present their actual project</li>
+               <li>The first round involves project demonstration, where each team must showcase their project in front of the judges.</li>
+               <li>Qualified teams will advance to the second round, where they will deliver presentations utilizing the designated PPT template available for download.</li>
                <li>Minimum one member should be there at desk at all times.</li>
                <li>Ideas related to robotics and new innovative technologies will help participants to gain bonus point.</li>
                <li>Project related to any domain will be accepted</li>

@@ -1,3 +1,7 @@
+.custom-animation {
+	animation-duration: 0.5s !important;
+  }
+
 .video {
 	width: 100%;
 	height: 100%;

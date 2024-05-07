@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './home.css';
+import 'animate.css';
 import robocorLogo from '../assets/robocorLogo.png';
 import line from '../assets/underline.png';
 import Footer from '../components/Footer.jsx';
@@ -200,13 +201,14 @@ function App() {
 <div id='landing'className="landing">  
    <div className="title">
       
-   <span className='gradient-text tagMain' >
+   <span className='gradient-text tagMain animate__animated animate__backInDown custom-animation' >
        RoBoCoR'24
      </span>
-           <img src={line} className='img glow'></img>
+           <img src={line} className='img glow animate__animated animate__pulse'></img>
       
-       <div className='tag'>
-       <span style={{
+       <div className='tag animate__animated  animate__headShake'>
+       <span 
+       style={{
  fontSize: "1.5rem",
  color: "#AE8A68",
  
