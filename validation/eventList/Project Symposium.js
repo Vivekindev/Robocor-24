@@ -4,9 +4,7 @@ const projectsymposium = [
         "name": "Ojas Sangra",
         "email": "testing"
     },
-    {
-     "name": "Kumarswami Kallimath"
-    },
+   
     {
      "name": "Adarsh Raj",
      "email": "1si22cs007@sit.ac.in"

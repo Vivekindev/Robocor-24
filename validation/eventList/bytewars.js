@@ -9,9 +9,7 @@ const bytewars = [
     "email": "vivekindev@gmail.com",
     "contact" : "9986094033"
   },
-  {
-   "name": "Kumarswami Kallimath"
-  },
+  
   {
    "name": "Adarsh Raj",
    "email": "1si22cs007@sit.ac.in"
