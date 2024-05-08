@@ -1,12 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Cert from '../../assets/partCert.png';
+import Cert from '../../assets/partCert.jpg';
 import './certificate.css';
 import Footer from '../../components/Footer';
 import logo from '../../assets/robocorLogo.png';
 import certVideo from '../../assets/certLOOP.mp4';
 import customFont from '../../assets/certFont.ttf'; // Import your custom font file
 
-const Certificate = ({ textX = 1593, textY = 962, eventX = 1593, eventY = 1253 }) => {
+const Certificate = ({ textX = 1000, textY = 630, eventX = 1000, eventY = 855 }) => {
   const [phone, setPhone] = useState('');
   const [eventName, setEventName] = useState('');
   const [email, setEmail] = useState('');
@@ -110,7 +110,7 @@ const Certificate = ({ textX = 1593, textY = 962, eventX = 1593, eventY = 1253 }
           ctx.drawImage(template, 0, 0);
   
           // Draw text on certificate
-          ctx.font = '13.1rem CustomFont'; // Set the font here
+          ctx.font = '9rem CustomFont'; // Set the font here
           ctx.fillStyle = 'black';
           ctx.textAlign = 'center';
           ctx.fillText(name, textX, textY); // Use specified X and Y coordinates
@@ -118,8 +118,8 @@ const Certificate = ({ textX = 1593, textY = 962, eventX = 1593, eventY = 1253 }
   
           // Download certificate
           const link = document.createElement('a');
-          link.href = canvas.toDataURL('image/png'); // Maintain PNG format for transparency support
-          link.download = 'certificate.png';
+          link.href = canvas.toDataURL('image/jpg'); // Maintain PNG format for transparency support
+          link.download = 'certificate.jpg';
           link.click();
   
           setVerifying(false);
