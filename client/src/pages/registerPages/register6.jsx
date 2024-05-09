@@ -108,7 +108,24 @@ return(
 
  </>
 ):(
+    <>
+     <div style={{
+      
+      width:"100%",
+      height:"100vh",
+      backgroundColor:"#110302", 
+      display:"flex",
+      flexDirection:"column",
+      justifyContent:"center",
+      alignItems:"center",  
+      fontSize:"2rem"
+  }}>
+    <span className='gradient-text' style={{  fontFamily:"jedi"}}>online registrations closed</span> 
+    <span style={{fontSize:"1.3rem",paddingTop:"0.5rem"}}>Onspot Registrations in Media Centre</span>
+
+  </div>
            <div style={{
+            display:"none",
 width:"100%",
 height:"100vh",
 backgroundColor:"#110302"
@@ -120,6 +137,7 @@ backgroundColor:"#110302"
   
 <iframe onLoad={()=>setIframe(true)} width="100%" height="100%" style={{border:"none"}} src="https://www.yepdesk.com/embed/buy-tickets/6624265a46e0fb0001bfe80d/private/cj3ebh2tnf"></iframe>
 </div>
+</>
 )}
 
 </>
