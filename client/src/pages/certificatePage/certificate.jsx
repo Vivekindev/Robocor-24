@@ -168,14 +168,15 @@ const Certificate = ({ textX = 1000, textY = 630, eventX = 1000, eventY = 855 })
             onChange={handleEventNameChange}
           >
             <option value="" disabled>Select Event</option>
-            <option value="ByteWars" >ByteWars</option>
-            <option value="DroidRace">DroidRace</option>
-            <option value="StarLink">StarLink</option>
-            <option value="StarCrawl">StarCrawl</option>
-            <option value="DroidKick">DroidKick</option>
             <option value="Arduino Craft">Arduino Craft</option>
+            <option value="ByteWars" >ByteWars</option>
+            <option value="DroidKick">DroidKick</option>
+            <option value="DroidRace">DroidRace</option>
             <option value="Project Symposium">Project Symposium</option>
             <option value="Quizzy Brainiacs">Quizzy Brainiacs</option>
+            <option value="StarCrawl">StarCrawl</option>
+            <option value="StarLink">StarLink</option>
+            
           </select>
 
           <input

@@ -1,84 +1,70 @@
 //projectsymposium.jsx
 const projectsymposium = [
     {
-        "name": "Ojas Sangra",
-        "email": "testing"
-    },
-   
-    {
-     "name": "Adarsh Raj",
-     "email": "1si22cs007@sit.ac.in"
+     "name": "Suraj  T P",
+     "email": "suryalakshmi125@gmail.com",
+     "contact": 9449214905
     },
     {
-     "name": "Himanshu Rai"
+     "name": "Vinay K S",
+     "email": "vinayks705@gmail.com",
+     "contact": 6361006588
     },
     {
-     "name": "Raj Patel",
-     "email": "1si22cs140@sit.ac.in"
+     "name": "Arpit Anand",
+     "email": "arpitanandnova@gmail.com",
+     "contact": 7903059740
     },
     {
-     "name": "Aaryan dewangan",
-     "email": "1si23ad003@sit.ac.in"
+     "name": "Girish Chandra",
+     "email": "girish.chandra2806@gmail.com",
+     "contact": 7781860655
     },
     {
-     "name": "Amulya prakash",
-     "email": "1si23is005@sit.ac.in"
+     "name": "Khachith Sri Rangu V H",
+     "email": "khachithsriranguvh@gmail.com",
+     "contact": 9353049040
     },
     {
-     "name": "Impana ks",
-     "email": "1si23is018@sit.ac.in"
+     "name": "Dasharatha R",
+     "email": "1si21ec027@sit.ac.in",
+     "contact": 9448769325
     },
     {
-     "name": "Tanay raj",
-     "email": "1ds22cy055@dsce.edu.in"
+     "name": "Ali Yazdan",
+     "email": "yazdaalizaidi@gmail.com",
+     "contact": 8445358844
     },
     {
-     "name": "Prabhat ranjan",
-     "email": "Prabhatranjan@kgpian.iitkgp.ac.in"
+     "name": "Fahad Alam",
+     "email": "fahad99alam@gmail.com",
+     "contact": 6299795615
     },
     {
-     "name": "Ishit Singh",
-     "email": "ishitsingh9569@gmail.com"
+     "name": "Gowthami Jain",
+     "email": "1si21ec016@sit.ac.in",
+     "contact": 9620872251
     },
     {
-     "name": "Aaryan Raj",
-     "email": "aaryanrajhit2011@gmail.com"
+     "name": "Aryan Abrol",
+     "email": "aryanabrol95@gmail.com",
+     "contact": 8082056896
     },
     {
-     "name": "Utkrist Devangan"
+     "name": "Akash kumar",
+     "email": "akasheducation10@gmail.com",
+     "contact": 6201539709
     },
     {
-     "name": "Nandita R Karennawar",
-     "email": "nanditakarennawar10@gmail.com"
+     "name": "Bindya P",
+     "email": "1si21ec016@sit.ac.in",
+     "contact": 9606819318
     },
     {
-     "name": "Utkarsh Sawaran",
-     "email": "utkarshsawarn03@gmail.com"
-    },
-    {
-     "name": "Suprateek V Yawagal",
-     "email": "prateekyawagal@gmail.com"
-    },
-    {
-     "name": "Bhargavi Agrawal",
-     "email": "smartygauri12@gmail.com"
-    },
-    {
-     "name": "N Rahul Rathod",
-     "email": "rahulrathod.n04@gmail.com"
-    },
-    {
-     "name": "Shivansh",
-     "email": "shivansh342@gmail.com"
-    },
-    {
-     "name": "Syed Abdul Basith",
-     "email": "abasithrayan@gmail.com"
-    },
-    {
-     "name": "Aman Kumar Jha",
-     "email": "jhaa9633@gmail.com"
+     "name": "Jaya Chandak",
+     "email": "1si21ec045@sit.ac.in",
+     "contact": 9734133931
     }
-   ];
+   ]
   
   export default projectsymposium;

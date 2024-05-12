@@ -87,6 +87,7 @@ const arduinocraft = [
     },
     {
      "name": "Rakshita S Shirol",
+     "email": "null404",
      "contact": 7676474256
     },
     {
@@ -135,16 +136,18 @@ const arduinocraft = [
      "contact": 9880762017
     },
     {
-     "name": "NARENDRA",
+     "name": "Narendra",
      "email": "narendrajha074@gmail.com",
      "contact": 9875310068
     },
     {
-     "name": "ISHAN",
+     "name": "Ishan",
+     "email": "null404",
      "contact": 7033311027
     },
     {
      "name": "Aaish",
+     "email": "null404",
      "contact": 8210588809
     },
     {
@@ -184,10 +187,12 @@ const arduinocraft = [
     },
     {
      "name": "Rohith Ingaleshwar",
+     "email": "shreyasmedu@gmail.com",
      "contact": 9480866883
     },
     {
-     "name": "Ritesh Lal R R",
+     "name": "Ritesh Lal RR",
+     "email": "shreyasmedu@gmail.com",
      "contact": 6364557621
     },
     {
@@ -281,27 +286,33 @@ const arduinocraft = [
      "contact": 7411194418
     },
     {
-     "name": "CHIRAG R",
+     "name": "Chirag R",
+     "email": "null404",
      "contact": 8310632245
     },
     {
-     "name": "KISHORE GOWDA O K",
+     "name": "Kishore Gowda O K",
+     "email": "null404",
      "contact": 7204170657
     },
     {
-     "name": "G PARTHASARATHI",
+     "name": "G Parthasarathi",
+     "email": "null404",
      "contact": 9739269088
     },
     {
-     "name": "ADITHYA BP",
+     "name": "Adithya B P",
+     "email": "null404",
      "contact": 8147673729
     },
     {
-     "name": "GAGANDEEP BS",
+     "name": "Gagandeep B S",
+     "email": "null404",
      "contact": 9164990984
     },
     {
-     "name": "SUJAL GC",
+     "name": "Sujal G C",
+     "email": "null404",
      "contact": 9019472418
     },
     {
@@ -374,6 +385,6 @@ const arduinocraft = [
      "email": "smitsolanki159@gmail.com",
      "contact": 9714756665
     }
-   ];
+   ]
   
   export default arduinocraft;

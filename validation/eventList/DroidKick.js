@@ -1,84 +1,80 @@
 //droidkick.jsx
 const droidkick = [
     {
-        "name": "Ojas Sangra",
-        "email": "testing"
-    },
-    
-    {
-     "name": "Adarsh Raj",
-     "email": "1si22cs007@sit.ac.in"
+     "name": "Sudarshan Salian",
+     "email": "sudarshansalian46@gmail.com",
+     "contact": 6361033866
     },
     {
-     "name": "Himanshu Rai"
+     "name": "Charan Shetty",
+     "email": "sudarshansalian46@gmail.com",
+     "contact": 6361033866
     },
     {
-     "name": "Raj Patel",
-     "email": "1si22cs140@sit.ac.in"
+     "name": "Anvitha P",
+     "email": "null404",
+     "contact": 7829011124
     },
     {
-     "name": "Aaryan dewangan",
-     "email": "1si23ad003@sit.ac.in"
+     "name": "Suman S A",
+     "email": "sumanshettikeri@gmail.com",
+     "contact": 6361637590
     },
     {
-     "name": "Amulya prakash",
-     "email": "1si23is005@sit.ac.in"
+     "name": "Vineeth B S",
+     "email": "bsvineeth5360@gmail.com",
+     "contact": 7676400322
     },
     {
-     "name": "Impana ks",
-     "email": "1si23is018@sit.ac.in"
+     "name": "Madhu H V",
+     "email": "bsvineeth5360@gmail.com",
+     "contact": 9108567920
     },
     {
-     "name": "Tanay raj",
-     "email": "1ds22cy055@dsce.edu.in"
+     "name": "Shree Kavya S N",
+     "email": "bsvineeth5360@gmail.com",
+     "contact": 8867422519
     },
     {
-     "name": "Prabhat ranjan",
-     "email": "Prabhatranjan@kgpian.iitkgp.ac.in"
+     "name": "Rahul N",
+     "email": "rahulgowda0125@gmail.com",
+     "contact": 9731874176
     },
     {
-     "name": "Ishit Singh",
-     "email": "ishitsingh9569@gmail.com"
+     "name": "Shreenanda S",
+     "email": "shreenanda0503@gmail.com",
+     "contact": 7829156967
     },
     {
-     "name": "Aaryan Raj",
-     "email": "aaryanrajhit2011@gmail.com"
+     "name": "Areeb Imtiaz Ahamed",
+     "email": "areebahamed7@gmail.com",
+     "contact": 9036800167
     },
     {
-     "name": "Utkrist Devangan"
+     "name": "Vinuth A D",
+     "email": "advinuth2001@gmail.com",
+     "contact": 8971360663
     },
     {
-     "name": "Nandita R Karennawar",
-     "email": "nanditakarennawar10@gmail.com"
+     "name": "S Anusha",
+     "email": "anushas2003ktr@gmail.com",
+     "contact": 9731874176
     },
     {
-     "name": "Utkarsh Sawaran",
-     "email": "utkarshsawarn03@gmail.com"
+     "name": "Vandana R",
+     "email": "vandanasagar2854@gmail.com",
+     "contact": 7829156967
     },
     {
-     "name": "Suprateek V Yawagal",
-     "email": "prateekyawagal@gmail.com"
+     "name": "Adithya B P",
+     "email": "adithya22012002@gmail.com",
+     "contact": 9036800167
     },
     {
-     "name": "Bhargavi Agrawal",
-     "email": "smartygauri12@gmail.com"
-    },
-    {
-     "name": "N Rahul Rathod",
-     "email": "rahulrathod.n04@gmail.com"
-    },
-    {
-     "name": "Shivansh",
-     "email": "shivansh342@gmail.com"
-    },
-    {
-     "name": "Syed Abdul Basith",
-     "email": "abasithrayan@gmail.com"
-    },
-    {
-     "name": "Aman Kumar Jha",
-     "email": "jhaa9633@gmail.com"
+     "name": "Madan Jogi",
+     "email": "madanavinahalli@gmail.com",
+     "contact": 8971360663
     }
-   ];
+   ]
   
   export default droidkick;
