@@ -162,9 +162,9 @@ function App() {
                            </ul>
                            
                            <div className="l-header__container__nl u-justify-content-end u-none u-flex--lg">
-                            <a onClick={()=>scrollToElement('events')}>  <button className="c-cta u-justify-content-center u-align-items-center u-cursor-pointer" data-v-8f71f97c="" to="">
-                                   <span className="c-cta__name" data-v-8f71f97c="" data-text="Register">
-                                       <span data-v-8f71f97c="">Register</span>
+                            <a href='/certificate'>  <button className="c-cta u-justify-content-center u-align-items-center u-cursor-pointer" data-v-8f71f97c="" to="">
+                                   <span className="c-cta__name" data-v-8f71f97c="" data-text="Certificates">
+                                       <span data-v-8f71f97c="">Certificates</span>
                                    </span>
                                    <span className="u-wrapper-panel u-pointer-none" data-v-8f71f97c="">
                                      <svg data-v-8f71f97c="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 47" preserveAspectRatio="none">
