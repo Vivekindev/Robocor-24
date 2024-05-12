@@ -1,83 +1,378 @@
 //arduinocraft.jsx
 const arduinocraft = [
     {
-        "name": "Ojas Sangra",
-        "email": "testing"
-    },
-    
-    {
-     "name": "Adarsh Raj",
-     "email": "1si22cs007@sit.ac.in"
+     "name": "Aryan Kumar Sinha",
+     "email": "aryankumarsinha280@gmail.com",
+     "contact": 8292326350
     },
     {
-     "name": "Himanshu Rai"
+     "name": "Rishabh Singh",
+     "email": "rishabhsingh20059835@gmail.com",
+     "contact": 8957292733
     },
     {
-     "name": "Raj Patel",
-     "email": "1si22cs140@sit.ac.in"
+     "name": "Arpreet Singh",
+     "email": "learn_aru@outlook.com",
+     "contact": 6200722133
     },
     {
-     "name": "Aaryan dewangan",
-     "email": "1si23ad003@sit.ac.in"
+     "name": "Chaitanya M J",
+     "email": "chaitanyamahalathkar@gmail.com",
+     "contact": 7204091672
     },
     {
-     "name": "Amulya prakash",
-     "email": "1si23is005@sit.ac.in"
+     "name": "Keerthana",
+     "email": "keerthana1217.raj@gmail.com",
+     "contact": 6362391836
     },
     {
-     "name": "Impana ks",
-     "email": "1si23is018@sit.ac.in"
+     "name": "Joel Sunny",
+     "email": "joelsunny07.03@gmail.com",
+     "contact": 8073506876
     },
     {
-     "name": "Tanay raj",
-     "email": "1ds22cy055@dsce.edu.in"
+     "name": "Nisarga MN",
+     "email": "nisargamn2005@gmail.com",
+     "contact": 6361160398
     },
     {
-     "name": "Prabhat ranjan",
-     "email": "Prabhatranjan@kgpian.iitkgp.ac.in"
+     "name": "Vanishree",
+     "email": "jairama162005@gmail.com",
+     "contact": 7899775671
     },
     {
-     "name": "Ishit Singh",
-     "email": "ishitsingh9569@gmail.com"
+     "name": "Varshini D",
+     "email": "1si23ec120@sit.ac.in",
+     "contact": 9148746427
     },
     {
-     "name": "Aaryan Raj",
-     "email": "aaryanrajhit2011@gmail.com"
+     "name": "Anusha S Hiremath",
+     "email": "anushahiremath2004@gmail.com",
+     "contact": 6361653984
     },
     {
-     "name": "Utkrist Devangan"
+     "name": "Bhumika T",
+     "email": "1si23is013@sit.ac.in",
+     "contact": 7975191219
     },
     {
-     "name": "Nandita R Karennawar",
-     "email": "nanditakarennawar10@gmail.com"
+     "name": "Prajna S P Dhammapada",
+     "email": "prajnaaspd@gmail.com",
+     "contact": 9108612593
     },
     {
-     "name": "Utkarsh Sawaran",
-     "email": "utkarshsawarn03@gmail.com"
+     "name": "Himanshu Aditya",
+     "email": "himanshuaditya81@gmail.com",
+     "contact": 9417155191
     },
     {
-     "name": "Suprateek V Yawagal",
-     "email": "prateekyawagal@gmail.com"
+     "name": "Chaitanya Dhingra",
+     "email": "chaitanyadhingra2005@gmail.com",
+     "contact": 7428600865
     },
     {
-     "name": "Bhargavi Agrawal",
-     "email": "smartygauri12@gmail.com"
+     "name": "Prince Verma",
+     "email": "princebetuverma05@gmail.com",
+     "contact": 6388083230
     },
     {
-     "name": "N Rahul Rathod",
-     "email": "rahulrathod.n04@gmail.com"
+     "name": "Shravya Rajesh Ninjoor",
+     "email": "nshravya9@gmail.com",
+     "contact": 9632225090
     },
     {
-     "name": "Shivansh",
-     "email": "shivansh342@gmail.com"
+     "name": "Sanjana M",
+     "email": "msanjana2405@gmail.com",
+     "contact": 9019542964
     },
     {
-     "name": "Syed Abdul Basith",
-     "email": "abasithrayan@gmail.com"
+     "name": "Rakshita S Shirol",
+     "contact": 7676474256
     },
     {
-     "name": "Aman Kumar Jha",
-     "email": "jhaa9633@gmail.com"
+     "name": "Dhanush Gowda AS",
+     "email": "dhanushgowda739@gmail.com",
+     "contact": 8762510064
+    },
+    {
+     "name": "Pradyumna Prasad",
+     "email": "shammusep2005@gmail.com",
+     "contact": 9739355997
+    },
+    {
+     "name": "Dhruva D",
+     "email": "dhruvad575@gmail.com",
+     "contact": 6364768472
+    },
+    {
+     "name": "Shreya",
+     "email": "shreyarambly@gmail.com",
+     "contact": 9741074374
+    },
+    {
+     "name": "Yashaswini",
+     "email": "yashaswiniyashu6548@gmail.com",
+     "contact": 8217020882
+    },
+    {
+     "name": "Ruchitha B",
+     "email": "ruchitharuchi0046@gmail.com",
+     "contact": 6364540180
+    },
+    {
+     "name": "Sanjana Madhav Naik",
+     "email": "sanjanamnaik2005@gmail.com",
+     "contact": 6363589466
+    },
+    {
+     "name": "Sahana A Naik",
+     "email": "nsahana558@gmail.com",
+     "contact": 9019983817
+    },
+    {
+     "name": "Chandana B S",
+     "email": "chandanabilchod17@gmail.com",
+     "contact": 9880762017
+    },
+    {
+     "name": "NARENDRA",
+     "email": "narendrajha074@gmail.com",
+     "contact": 9875310068
+    },
+    {
+     "name": "ISHAN",
+     "contact": 7033311027
+    },
+    {
+     "name": "Aaish",
+     "contact": 8210588809
+    },
+    {
+     "name": "Likitha C S",
+     "email": "likhithacs27@gmail.com",
+     "contact": 7019729787
+    },
+    {
+     "name": "Harika Reddy",
+     "email": "harikareddysnicy@gmail.com",
+     "contact": 9945089412
+    },
+    {
+     "name": "Darshini P Sindhe",
+     "email": "darshini.p.sindhe@gmail.com",
+     "contact": 9380390995
+    },
+    {
+     "name": "Kritika",
+     "email": "prasadkritika43@gmail.com",
+     "contact": 8050575747
+    },
+    {
+     "name": "Pratik Gautam",
+     "email": "1si23ad038@sit.ac.in",
+     "contact": 7631854444
+    },
+    {
+     "name": "Anaya Singh",
+     "email": "anayaasingh.01@gmail.com",
+     "contact": 9870514476
+    },
+    {
+     "name": "Shreyas M",
+     "email": "shreyasmedu@gmail.com",
+     "contact": 7019266380
+    },
+    {
+     "name": "Rohith Ingaleshwar",
+     "contact": 9480866883
+    },
+    {
+     "name": "Ritesh Lal R R",
+     "contact": 6364557621
+    },
+    {
+     "name": "Karthik K",
+     "email": "1kkarthik@gmail.com",
+     "contact": 9591815597
+    },
+    {
+     "name": "Mahammedazeem",
+     "email": "azeembgm2004@gmail.com",
+     "contact": 8123318082
+    },
+    {
+     "name": "Raghunatha C H",
+     "email": "rraghuraghu12@gmail.com",
+     "contact": 9019847579
+    },
+    {
+     "name": "Shreyas B R",
+     "email": "shreyasshreyu198@gmail.com",
+     "contact": 9353441015
+    },
+    {
+     "name": "Mahantesh Kumar s",
+     "email": "kumarsgmahantesh@gmail.com",
+     "contact": 8951413516
+    },
+    {
+     "name": "Nayana H R",
+     "email": "nayanahr@gmail.com",
+     "contact": 7899150363
+    },
+    {
+     "name": "Manoj N N",
+     "email": "1si23et408@sit.ac.in",
+     "contact": 8073250013
+    },
+    {
+     "name": "Prasoona V",
+     "email": "prasoonaprasoona74@gmail.com",
+     "contact": 6360964166
+    },
+    {
+     "name": "Thejaswini B S",
+     "email": "4si22ei019@sit.ac.in",
+     "contact": 9901895427
+    },
+    {
+     "name": "Nehal choudhary",
+     "email": "1si21ec065@sit.ac.in",
+     "contact": 7061227422
+    },
+    {
+     "name": "Rounak gupta",
+     "email": "rounak.1si21ec080@gmail.com",
+     "contact": 8839671017
+    },
+    {
+     "name": "Shashank ambasta",
+     "email": "1si21ec082@sit.ac.in",
+     "contact": 8826263597
+    },
+    {
+     "name": "Akshay Pratap Singh",
+     "email": "akshay2020pratapsingh@gmail.com",
+     "contact": 7505864267
+    },
+    {
+     "name": "Abhishek Ranjan",
+     "email": "abhishekranjan.ab97@gmail.com",
+     "contact": 6201756447
+    },
+    {
+     "name": "Aditya Raj",
+     "email": "1si23cs008@sit.ac.in",
+     "contact": 9199214793
+    },
+    {
+     "name": "Yashas K S",
+     "email": "yashasks2003@gmail.com",
+     "contact": 8660044220
+    },
+    {
+     "name": "Apeksha",
+     "email": "apekshagouravhp@gmail.com",
+     "contact": 8105362036
+    },
+    {
+     "name": "Ashwini",
+     "email": "ashwini12072004@gmail.com",
+     "contact": 7411194418
+    },
+    {
+     "name": "CHIRAG R",
+     "contact": 8310632245
+    },
+    {
+     "name": "KISHORE GOWDA O K",
+     "contact": 7204170657
+    },
+    {
+     "name": "G PARTHASARATHI",
+     "contact": 9739269088
+    },
+    {
+     "name": "ADITHYA BP",
+     "contact": 8147673729
+    },
+    {
+     "name": "GAGANDEEP BS",
+     "contact": 9164990984
+    },
+    {
+     "name": "SUJAL GC",
+     "contact": 9019472418
+    },
+    {
+     "name": "Sharanya Y S",
+     "email": "sharanyays29@gmaip.com",
+     "contact": 9008050214
+    },
+    {
+     "name": "Nuha Fathima",
+     "email": "nuhashariff24@gmail.com",
+     "contact": 6360105458
+    },
+    {
+     "name": "Manoj N N",
+     "email": "1si23et408@sit.ac.in",
+     "contact": 8073250013
+    },
+    {
+     "name": "Shashank Shekar",
+     "email": "shashanksingh122004@gmail.com",
+     "contact": 7856058715
+    },
+    {
+     "name": "Sharath S",
+     "email": "sharath280705@gmail.com",
+     "contact": 8660611446
+    },
+    {
+     "name": "Sachit Ramesha Gowda",
+     "email": "solarhatesbeing@gmail.com",
+     "contact": 6364530795
+    },
+    {
+     "name": "Bhavyashri Shripad Deshpande",
+     "email": "bhavyasd2003@gmail.com",
+     "contact": 8095028737
+    },
+    {
+     "name": "Misbah D",
+     "email": "misbahkhanam2925@gmail.com",
+     "contact": 9482486146
+    },
+    {
+     "name": "Udaya Kumar G B",
+     "email": "udaygowda27uday@gmail.com",
+     "contact": 8792269684
+    },
+    {
+     "name": "Himanshu Lodhi",
+     "email": "xdhimanshu25@gmail.com",
+     "contact": 8476884665
+    },
+    {
+     "name": "Vedamurthy M S",
+     "email": "vedhuvedh6@gmail.com",
+     "contact": 9113928296
+    },
+    {
+     "name": "Abishai",
+     "email": "nimmagadaabishai@gmail.com",
+     "contact": 9014476730
+    },
+    {
+     "name": "Thejaswini B S",
+     "email": "4si22et019@sit.ac.in",
+     "contact": 9901895427
+    },
+    {
+     "name": "Smit Kumar Solanki",
+     "email": "smitsolanki159@gmail.com",
+     "contact": 9714756665
     }
    ];
   
