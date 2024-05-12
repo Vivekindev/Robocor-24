@@ -79,7 +79,7 @@ const Footer = () => {
                     </div>
 
                     <div className="footer-navigation-wrap">
-                        <a href="https://robocor24.cyclic.app/" className="footer-nav-link w-inline-block">
+                        <a href="https://robocor24.corsit.in/" className="footer-nav-link w-inline-block">
                             <div>Home</div>
                         </a>
                         <a href={rulebook} download="Robocor'24(RuleBook).pdf" className="footer-nav-link w-inline-block">
