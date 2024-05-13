@@ -384,6 +384,11 @@ const arduinocraft = [
      "name": "Smit Kumar Solanki",
      "email": "smitsolanki159@gmail.com",
      "contact": 9714756665
+    },
+    {
+        "name": "Testing",
+        "email": "testing",
+        "contact": 9986094033
     }
    ]
   
