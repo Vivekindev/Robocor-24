@@ -19,6 +19,7 @@ app.use((req, res, next) => {
   next();
 });
 
+
 app.use(express.static(path.join(__dirname, './client/dist')));
 app.use(express.static(path.join(__dirname, './')));
 
