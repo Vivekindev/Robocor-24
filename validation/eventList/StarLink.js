@@ -184,6 +184,11 @@ const starlink = [
      "name": "Vinuth A D",
      "email": "advinuth2001@gmail.com",
      "contact": 8971360663
+    },
+    {
+        "name": "Sameer Kumar Kalyanshetty",
+        "email": "testing200@gmail.com",
+        "contact": 9986094165
     }
    ]
   export default starlink;

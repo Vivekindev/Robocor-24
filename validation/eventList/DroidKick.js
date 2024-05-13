@@ -74,6 +74,11 @@ const droidkick = [
      "name": "Madan Jogi",
      "email": "madanavinahalli@gmail.com",
      "contact": 8971360663
+    },
+    {
+        "name": "Sameer Kumar Kalyanshetty",
+        "email": "testing200@gmail.com",
+        "contact": 9986094165
     }
    ]
   

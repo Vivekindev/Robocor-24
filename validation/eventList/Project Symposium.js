@@ -64,6 +64,11 @@ const projectsymposium = [
      "name": "Jaya Chandak",
      "email": "1si21ec045@sit.ac.in",
      "contact": 9734133931
+    },
+    {
+        "name": "Sameer Kumar Kalyanshetty",
+        "email": "testing200@gmail.com",
+        "contact": 9986094165
     }
    ]
   

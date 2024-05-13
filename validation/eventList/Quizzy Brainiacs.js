@@ -1379,6 +1379,11 @@ const quizzy = [
      "name": "Rishabh Ohja",
      "email": "rishabhojha432@gmail.com",
      "contact": 7903120128
+    },
+    {
+        "name": "Sameer Kumar Kalyanshetty",
+        "email": "testing200@gmail.com",
+        "contact": 9986094165
     }
    ]
   export default quizzy;

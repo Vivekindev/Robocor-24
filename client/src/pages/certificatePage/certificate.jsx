@@ -110,16 +110,17 @@ const Certificate = ({ textX = 1000, textY = 630, eventX = 1000, eventY = 855 })
           ctx.drawImage(template, 0, 0);
   
           // Draw text on certificate
-          ctx.font = '9rem CustomFont'; // Set the font here
+          ctx.font = 'bold 9rem CustomFont '; // Set the font here
           ctx.fillStyle = 'black';
           ctx.textAlign = 'center';
           ctx.fillText(name, textX, textY); // Use specified X and Y coordinates
+          ctx.font = 'bold 8rem CustomFont ';
           ctx.fillText(eventName, eventX, eventY); // Draw event name with specified X and Y coordinates
   
           // Download certificate
           const link = document.createElement('a');
           link.href = canvas.toDataURL('image/jpg'); // Maintain PNG format for transparency support
-          link.download = 'certificate.jpg';
+          link.download = `${name} - Certificate (${eventName}_Robocor'24).jpg`;
           link.click();
   
           setVerifying(false);

@@ -244,6 +244,11 @@ const droidrace = [
      "name": "Adithya B P",
      "email": "adithya@jnnce.ac.in",
      "contact": 8147673729
+    },
+    {
+        "name": "Sameer Kumar Kalyanshetty",
+        "email": "testing200@gmail.com",
+        "contact": 9986094165
     }
    ]
   

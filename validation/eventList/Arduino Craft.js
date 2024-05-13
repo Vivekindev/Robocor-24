@@ -386,9 +386,9 @@ const arduinocraft = [
      "contact": 9714756665
     },
     {
-        "name": "Testing",
-        "email": "testing",
-        "contact": 9986094033
+        "name": "Sameer Kumar Kalyanshetty",
+        "email": "testing200@gmail.com",
+        "contact": 9986094165
     }
    ]
   
