@@ -1,3 +1,4 @@
+//certificate.jsx
 import React, { useState, useRef, useEffect } from 'react';
 import Cert from '../../assets/partCert.jpg';
 import './certificate.css';
