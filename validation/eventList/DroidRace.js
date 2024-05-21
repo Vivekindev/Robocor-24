@@ -202,7 +202,7 @@ const droidrace = [
     },
     {
      "name": "Akash J P",
-     "email": "akashjp.2603@gmail.com",
+     "email": "akashjp0260@gmail.com",
      "contact": 9480690123
     },
     {
@@ -249,6 +249,16 @@ const droidrace = [
         "name": "Sameer Kumar Kalyanshetty",
         "email": "testing200@gmail.com",
         "contact": 9986094165
+    },
+    {
+        "name": "J B hameed",
+        "email": "Jbhameed007@gmail.com",
+        "contact": 9663991964
+    },
+    {
+        "name": "Sai Samay",
+        "email": "saisamay5@gmail.com",
+        "contact": 7019664336
     }
    ]
   
